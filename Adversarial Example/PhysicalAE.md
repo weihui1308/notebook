@@ -14,7 +14,7 @@ PMLR 2018
 ICLR 2019
 7. Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles  
 CVPR 2020
-8. Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles  
+8. Adversarial Laser Beam: Effective Physical-World Attack to DNNs in a Blink  
 CVPR 2021, 代码开源
 9. Robust Physical-World Attacks on Deep Learning Visual Classification  
 CVPR 2018
@@ -34,3 +34,8 @@ CVPR 2021, 代码开源
 CVPR 2021
 17. The Translucent Patch: A Physical and Universal Attack on Object Detectors  
 CVPR 2021
+18. DPatch: An Adversarial Patch Attack on Object Detectors  
+AAAI 2019, 代码开源
+19. ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector  
+2018, 代码开源
+
