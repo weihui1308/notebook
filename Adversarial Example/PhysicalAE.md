@@ -1,5 +1,4 @@
 ## 论文列表
----
 1. NO Need to Worry about Adversarial Examples in Object Detection in Autonomous Vehicles  
 2017
 2. Adversarial Patch  
@@ -17,14 +16,14 @@ CVPR 2020
 8. Adversarial Laser Beam: Effective Physical-World Attack to DNNs in a Blink  
 CVPR 2021, 代码开源
 9. Robust Physical-World Attacks on Deep Learning Visual Classification  
-CVPR 2018
+CVPR 2018, 代码开源
 10. Natural Adversarial Examples  
 CVPR 2021, 代码开源
 11. Universal Physical Camouflage Attacks on Object Detectors  
 CVPR 2020, 代码开源
 12. PhysGAN: Generating Physical-World-Resilient Adversarial Examples for Autonomous Driving  
 CVPR 2020
-13. PhysGAN: Generating Physical-World-Resilient Adversarial Examples for Autonomous Driving
+13. Invisible Perturbations: Physical Adversarial Examples Exploiting the Rolling Shutter Effect  
 CVPR 2021
 14. Physically Realizable Adversarial Examples for LiDAR Object Detection  
 CVPR 2020
