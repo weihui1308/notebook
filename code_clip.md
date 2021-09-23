@@ -19,3 +19,4 @@ dtype = torch.cuda.FloatTensor if use_cuda else torch.FloatTensor
 # content_img = image_loader("images/dancing.jpg").type(dtype)
 # dtype对应不同数据类型
 ````
+### 3. 

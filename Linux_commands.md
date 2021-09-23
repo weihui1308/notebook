@@ -102,3 +102,10 @@
     ````
     tmux new -s <session-name>
     ````
+## conda相关命令
+1. 创建环境
+    ````
+    conda create -n your_env_name python=X.X
+2. 删除环境
+    ````
+    conda remove -n your_env_name --all
