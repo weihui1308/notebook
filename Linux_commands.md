@@ -75,4 +75,30 @@
     ````
     $ cp -i filename dir1
     $ rm -f filename
+## tmux的使用
+1. 查看会话
+    ````
+    $ tmux ls
+    # or
+    $ tmux list-session
+    ````
+2. 接入会话
+    ````
+    # 使用会话编号
+    $ tmux attach -t 0
 
+    # 使用会话名称
+    $ tmux attach -t <session-name>
+    ````
+3. 杀死会话
+    ````
+    # 使用会话编号
+    $ tmux kill-session -t 0
+
+    # 使用会话名称
+    $ tmux kill-session -t <session-name>
+    ````
+4. 新建会话
+    ````
+    tmux new -s <session-name>
+    ````
