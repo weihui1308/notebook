@@ -67,17 +67,21 @@
 7. 查看当前目录下.jpg文件的数量
     ````
     ls -lR | grep "jpg" | wc -l
-## 复制和删除
+## 复制、移动和删除
 1. 文件夹
     ````
     $ cp -r dir1 dir2
     dir2目录不存在，可以直接使用
 
     $ rm -rf dir
+
+    $ mv info/ logs  
+    将 info 目录放入 logs 目录中。注意，如果 logs 目录不存在，则该命令将 info 改名为 logs。
 2. 文件
     ````
     $ cp -i filename dir1
     $ rm -f filename
+    $ mv aaa bbb
 ## tmux的使用
 1. 查看会话
     ````
@@ -112,3 +116,6 @@
 2. 删除环境
     ````
     conda remove -n your_env_name --all
+3. 查看环境
+    ````
+    conda info --env
