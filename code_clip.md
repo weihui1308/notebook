@@ -39,3 +39,82 @@ def logger_config(log_path,logging_name):
 time_stamp = time.strftime("%Y%m%d_%H:%M:%S", time.localtime()) 
 logger = logger_config(log_path=args.outLog + '/log'+ time_stamp +'.txt', logging_name='--->')
 logger.info("Train Success: {:.3f}".format(success / total))
+````
+### 4. pytorch框架做图像识别
+````python
+import torch
+import torchvision.models as models
+from PIL import Image
+from torchvision import transforms
+import torchvision.utils as vutils
+
+
+def print_prob(output):
+    probabilities = torch.nn.functional.softmax(output[0], dim=0)
+    with open("imagenet_classes.txt", "r") as f:
+        categories = [s.strip() for s in f.readlines()]
+    # Show top categories per image
+    top5_prob, top5_catid = torch.topk(probabilities, 5)
+    print("The top5 is following:")
+    for i in range(top5_prob.size(0)):
+        print("\t", categories[top5_catid[i]], top5_prob[i].item())
+    return probabilities
+
+
+filename = "image/dog.jpg"
+input_image = Image.open(filename)
+mean = [0.485, 0.456, 0.406]
+std = [0.229, 0.224, 0.225]
+preprocess = transforms.Compose([
+    transforms.Resize(224),
+    transforms.CenterCrop(224),
+    transforms.ToTensor(),
+    transforms.Normalize(mean=mean, std=std),
+])
+
+input_tensor = preprocess(input_image)
+vutils.save_image(input_tensor.data, "1.png", normalize=True)
+input_batch = input_tensor.unsqueeze(0)
+classifier = models.vgg19(pretrained=True)
+classifier.eval()
+with torch.no_grad():
+    output = classifier(input_batch)
+print_prob(output)
+print(output.data.max(1)[1][0])
+````
+### 5. 反归一化
+````python
+class UnNormalize(object):
+    def __init__(self, mean, std):
+        self.mean = mean
+        self.std = std
+
+    def __call__(self, tensor):
+        """
+        Args:
+            tensor (Tensor): Tensor image of size (C, H, W) to be normalized.
+        Returns:
+            Tensor: Normalized image.
+        """
+        for t, m, s in zip(tensor, self.mean, self.std):
+            t.mul_(s).add_(m)
+            # The normalize code -> t.sub_(m).div_(s)
+        return tensor
+````
+### 6. 寻找二维tensor中topk个值的位置
+````python
+import torch
+
+k = 3
+a = torch.tensor([[1, 8, 3, 4, 6], [1, 10, 3, 7, 6]])
+b = torch.topk(a.view(-1), k)
+index_max = b.indices
+loc_max = []
+
+for idx in range(2):
+    x = (index_max[idx] / 5).int().item()
+    y = (index_max[idx] % 5).item()
+    loc_max.append([x, y])
+
+print(loc_max)
+````
