@@ -118,3 +118,14 @@ for idx in range(2):
 
 print(loc_max)
 ````
+
+### 7. 查看当前cuda和cudnn版本
+````
+cuda:
+cat  /usr/local/cuda/version.txt
+或
+nvcc --version
+
+cudnn:
+cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+````
