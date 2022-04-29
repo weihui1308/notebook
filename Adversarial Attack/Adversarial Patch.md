@@ -10,3 +10,4 @@
 ## 2021
 1. Legitimate Adversarial Patches: Evading Human Eyes and Detection Models in the Physical World
 2. The Translucent Patch: A Physical and Universal Attack on Object Detectors
+3. Naturalistic Physical Adversarial Patch for Object Detectors
