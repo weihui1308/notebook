@@ -75,3 +75,35 @@
 引入和MMD，它解决的是two-sample problem。4. How much?
 在ImageNet上表现SOTA。5. What then？
 文章没有提到。但这篇文章的工作很solid，行文也很清晰，值得follow。
+# 17: 20220511
+### Title: Intriguing properties of neural networks
+### Venue: ICLR 2014
+该paper主要是发现了以下两个有趣的性质：①神经网络中携带语义信息的不是某单个神经元，而是整个网络（或者说那一层）所表示的空间；②给样本添加一些轻微的扰动，会导致神经网络模型错误分类，这些样本就称为对抗样本（一般认为这篇paper是对抗样本的开山之作）
+# 18: 20220512
+### Title: Explaining and Harnessing Adversarial Examples
+### Venue: ICLR 2015
+本文提出FGSM（fast gradient sign method）攻击算法，该算法通过修改输入图像的像素值使得修改后的图像能够扰乱分类网络的分。具体做法是：一方面是基于输入图像计算梯度，另一方面在更新输入图像时是加上梯度，而不是减去梯度，这和常见的分类模型更新参数正好背道而驰，以此使模型产生错误的预测结果。
+# 19: 20220512
+### Title: Adversarial examples in the physical world
+### Venue: ICLR 2017
+FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较创新的地方。但是FGSM算法只涉及单次梯度更新，有时候单次更新并不足以攻击成功，因此，在此基础上推出迭代式的FGSM，这就是I-FGSM（iterative FGSM）。在该篇论文中提出了目标攻击，将输入图像分类成原本最不可能分到的类别。相比FGSM算法，I-FGSM算法的攻击成功率提升得还是非常明显的。
+# 20: 20220512
+### Title: DeepFool: a simple and accurate method to fool deep neural networks
+### Venue: CVPR 2016
+本文为Adversary Attack方向的一篇经典论文。算法名为DeepFool，其目标是寻求最小的扰动来达到生成对抗样本的目标。这是一种untargeted attak，该算法是通过寻求当前的点在高维空间中离所有非真实类的决策边界中最近的一个，来作为攻击后的label。
+# 21: 20220513
+### Title: Towards Evaluating the Robustness of Neural Networks
+### Venue: SP 2017
+该篇论文证明defensive distillation不能显著地提高模型的鲁棒性，并提出3种新的攻击算法，可以在distilled和undistilled神经网络达到100%的攻击成功率。它把构建对抗样本的过程转化为一个最优化问题。
+# 22: 20220513
+### Title: Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition
+### Venue: ACM SIGSAC 2016
+本文从物理空间攻击人脸识别系统，攻击的方法使佩戴特殊的、具有攻击性的眼镜。
+# 23: 20220513
+### Title: Advhat: Real-world adversarial attack on arcface face id system
+### Venue: ICPR 2021
+本文从物理空间攻击人脸识别系统，攻击的方法使佩戴具有攻击性的帽子。
+# 24: 20220513
+### Title: Adv-Makeup: A New Imperceptible and Transferable Attack on Face Recognition
+### Venue: IJCAI 2021
+本文从物理空间攻击人脸识别系统，攻击的方法是采用具有攻击性的妆容。
