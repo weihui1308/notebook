@@ -1,7 +1,7 @@
 # 1: 20220502
 ### Title: Context-Aware Transfer Attacks for Object Detection
 ### Venue: AAAI 2022
-目标检测模型是context-aware的，首次启发，作者提出context-aware attack，利用的context信息有cooccurrence of objects, relative locations, size。通过添加helper objects，实现了对目标检测模型的可迁移攻击。
+目标检测模型是context-aware的，受此启发，作者提出context-aware attack，利用的context信息有cooccurrence of objects, relative locations, size。通过添加helper objects，实现了对目标检测模型的可迁移攻击。
 # 2: 20220502
 ### Title: Adversarial Patch
 ### Venue: NIPS 2017
@@ -111,3 +111,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Making an Invisibility Cloak: Real World Adversarial Attacks on Object Detectors
 ### Venue: ECCV 2020
 作者关注生成的patch在不同模型之间的迁移性，在不同数据集之间的迁移性，并且做了详尽的实验，实现了physical attach。
+# 26: 20220514
+### Title: DVS-Attacks: Adversarial Attacks on Dynamic Vision Sensors for Spiking Neural Networks
+### Venue: IJCNN 2021
+这篇文章攻击的模型是Spiking Neural Networks（脉冲神经网络）。数据来源是DVS（Dynamic Vision Sensors） camera。这种摄像头可以记录时间序列的信息。
+# 27: 20220515
+### Title: Adversarial Texture for Fooling Person Detectors in the Physical World
+### Venue: CVPR 2022
+这篇文章提出在利用patch攻击目标检测模型时，会出现部分缺失问题，通俗一点讲就是随着摄像头视角的变化，对抗patch只有一部分或者全部都无法被摄像头捕获到，从而无法完成攻击。即对抗patch无法进行多视角的攻击。为了解决这个问题，本文提出了Adversarial Texture，一种覆盖在衣物表面的纹理，当人们穿上印有Adversarial Texture的衣服时，无论在哪一个角度，检测模型都无法识别到。生成Adversarial Texture是一个two-stage方法，其中stage one负责训练一个可以扩展的生成器，给该生成器输入一个随机变量z，它可以生成任意形状的对抗patch。stage two负责优化变量z以提高对抗patch的攻击性。在数字空间和物理空间的实验结果显示，当一个人穿着本文方法生成的Adversarial Texture所覆盖的衣服时，在监控摄像头视野范围内转圈或者做出不同姿态，都不会被检测到。
