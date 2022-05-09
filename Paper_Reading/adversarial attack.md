@@ -17,7 +17,7 @@
 # 5: 20220504
 ### Title: Adversarial T-shirt! Evading Person Detectors in A Physical World
 ### Venue: ECCV 2020
-制作Adversarial T-shirt攻击person detector。（todo）
+制作Adversarial T-shirt攻击person detector。针对T-shirt的非刚性变形，文章提出了TPS transformation。
 # 6: 20220505
 ### Title: Legitimate Adversarial Patches: Evading Human Eyes and Detection Models in the Physical World
 ### Venue: ACM MM 2021
@@ -107,3 +107,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Adv-Makeup: A New Imperceptible and Transferable Attack on Face Recognition
 ### Venue: IJCAI 2021
 本文从物理空间攻击人脸识别系统，攻击的方法是采用具有攻击性的妆容。
+# 25: 20220513
+### Title: Making an Invisibility Cloak: Real World Adversarial Attacks on Object Detectors
+### Venue: ECCV 2020
+作者关注生成的patch在不同模型之间的迁移性，在不同数据集之间的迁移性，并且做了详尽的实验，实现了physical attach。
