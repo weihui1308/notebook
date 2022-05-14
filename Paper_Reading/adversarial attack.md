@@ -115,11 +115,15 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: DVS-Attacks: Adversarial Attacks on Dynamic Vision Sensors for Spiking Neural Networks
 ### Venue: IJCNN 2021
 这篇文章攻击的模型是Spiking Neural Networks（脉冲神经网络）。数据来源是DVS（Dynamic Vision Sensors） camera。这种摄像头可以记录时间序列的信息。
-# 27: 20220515
+# 27: 20220516
 ### Title: Adversarial Texture for Fooling Person Detectors in the Physical World
 ### Venue: CVPR 2022
 这篇文章提出在利用patch攻击目标检测模型时，会出现部分缺失问题，通俗一点讲就是随着摄像头视角的变化，对抗patch只有一部分或者全部都无法被摄像头捕获到，从而无法完成攻击。即对抗patch无法进行多视角的攻击。为了解决这个问题，本文提出了Adversarial Texture，一种覆盖在衣物表面的纹理，当人们穿上印有Adversarial Texture的衣服时，无论在哪一个角度，检测模型都无法识别到。生成Adversarial Texture是一个two-stage方法，其中stage one负责训练一个可以扩展的生成器，给该生成器输入一个随机变量z，它可以生成任意形状的对抗patch。stage two负责优化变量z以提高对抗patch的攻击性。在数字空间和物理空间的实验结果显示，当一个人穿着本文方法生成的Adversarial Texture所覆盖的衣服时，在监控摄像头视野范围内转圈或者做出不同姿态，都不会被检测到。
-# 28: 20220515
+# 28: 20220516
 ### Title: Naturalistic Physical Adversarial Patch for Object Detectors
 ### Venue: ICCV 2021
 为了生成更自然的adversarial patch，作者使用在自然数据集（eg. imagenet）训练好的BigGAN（或StyleGAN）来生成具有攻击性的patch。优化的参数是输入generator的latent space code，而不是GAN网络的参数。整篇文章的思路循规蹈矩，但结果很好，实验做得很充实全面。
+# 29: 20220517
+### Title: Infrared Invisible Clothing: Hiding from Infrared Detectors at Multiple Angles in Real World
+### Venue: CVPR 2022
+采用气溶胶做成的衣服攻击热红外行人检测系统，达到多角度攻击的效果。生成攻击texture的方法仍然是生成patch的思路。
