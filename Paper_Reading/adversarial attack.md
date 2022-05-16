@@ -127,3 +127,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Infrared Invisible Clothing: Hiding from Infrared Detectors at Multiple Angles in Real World
 ### Venue: CVPR 2022
 采用气溶胶做成的衣服攻击热红外行人检测系统，达到多角度攻击的效果。生成攻击texture的方法仍然是生成patch的思路。
+# 30: 20220517
+### Title: Generating Adversarial yet Inconspicuous Patches with a Single Image
+### Venue: AAAI 2021 (student abstract)
+这个工作的完成版论文是：Inconspicuous Adversarial Patches for Fooling Image Recognition Systems on Mobile Devices，于2019年发表在IEEE Internet of Things Journal。论文方法生成一个几乎透明的patch，是一个GAN-based方法。论文没有提到physical attack，只在White-box and Black-box Attack上有评估结果。论文提出the contextual consistency。
