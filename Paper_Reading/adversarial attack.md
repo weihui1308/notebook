@@ -131,3 +131,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Generating Adversarial yet Inconspicuous Patches with a Single Image
 ### Venue: AAAI 2021 (student abstract)
 这个工作的完成版论文是：Inconspicuous Adversarial Patches for Fooling Image Recognition Systems on Mobile Devices，于2019年发表在IEEE Internet of Things Journal。论文方法生成一个几乎透明的patch，是一个GAN-based方法。论文没有提到physical attack，只在White-box and Black-box Attack上有评估结果。论文提出the contextual consistency。
+# 31: 20220523
+### Title: Optical Adversarial Attack
+### Venue: ICCV 2021
+作者提出利用投影仪（projector）将structured illumination投射到物理上，进而达到攻击效果，这个方法是一个projector-camera model。并且好处是不用直接接触物体（例如贴patch），而且得益于光的传播速度非常快，攻击可以在很短时间内完成。
