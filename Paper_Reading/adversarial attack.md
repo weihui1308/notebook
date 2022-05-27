@@ -135,3 +135,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Optical Adversarial Attack
 ### Venue: ICCV 2021
 作者提出利用投影仪（projector）将structured illumination投射到物理上，进而达到攻击效果，这个方法是一个projector-camera model。并且好处是不用直接接触物体（例如贴patch），而且得益于光的传播速度非常快，攻击可以在很短时间内完成。
+# 32: 20220527
+### Title: Semantic Adversarial Examples
+### Venue: CVPRW 2018
+本文通过将image从RGB空间转移到HSV空间，生成Semantic Adversarial Examples，在搜索时只改变H和S，以保证图像的语义结构。生成的对抗样本，人的视觉仍然可以辨认出图像中的物体，但是分类模型会给出错误的预测。
+# 33: 20220527
+### Title: Diffusion Models for Adversarial Purification
+### Venue: PMLR 2022
+本文用diffusion model做对抗防御，效果非常好。
