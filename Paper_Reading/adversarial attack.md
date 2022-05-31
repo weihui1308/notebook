@@ -139,7 +139,15 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Semantic Adversarial Examples
 ### Venue: CVPRW 2018
 本文通过将image从RGB空间转移到HSV空间，生成Semantic Adversarial Examples，在搜索时只改变H和S，以保证图像的语义结构。生成的对抗样本，人的视觉仍然可以辨认出图像中的物体，但是分类模型会给出错误的预测。
-# 33: 20220527
+# 33: 20220528
 ### Title: Diffusion Models for Adversarial Purification
 ### Venue: PMLR 2022
-本文用diffusion model做对抗防御，效果非常好。
+本文用diffusion model做对抗防御，效果非常好。训练时方法的输入是Adversarial image，经过diffusion model，输出Purified image，然后将其输入一个classifier中，使其分类正确。这是首次利用diffusion model来做Adversarial Purification。
+# 34: 20220530
+### Title: A Survey on Universal Adversarial Attack
+### Venue: IJCAI 2021
+作者对UAP（Universal Adversarial Perturbations）进行综述，UAP指一个perturbation可以在很多image上欺骗target model。文章介绍了什么是UAP，并且对UAP的方法进行罗列、分类、评论和防御。讨论了关于UAP为什么存在的一些研究。讨论了UAP面对的挑战。最后列举了UAP在别的工作上的研究（本文是在image classifier），如semantic segmentation，video recognition，video recognition，Audio Classification。
+# 35: 20220531
+### Title: NAG: Network for Adversary Generation
+### Venue: CVPR 2018
+本文提出用GAN的结构生成universal adversarial perturbations，该方法用了两个loss，一个控制攻击，一个控制生成结果的diversity。攻击的分类任务，在digital space。主要贡献1是首次证明可以通过一个生成模型来建模某个classifier的adversarial perturbation的分布，2是经验上地证明生成模型可以capture到perturbation的分布，生成了多样化的perturbation。
