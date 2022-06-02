@@ -151,3 +151,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: NAG: Network for Adversary Generation
 ### Venue: CVPR 2018
 本文提出用GAN的结构生成universal adversarial perturbations，该方法用了两个loss，一个控制攻击，一个控制生成结果的diversity。攻击的分类任务，在digital space。主要贡献1是首次证明可以通过一个生成模型来建模某个classifier的adversarial perturbation的分布，2是经验上地证明生成模型可以capture到perturbation的分布，生成了多样化的perturbation。
+# 36: 20220601
+### Title: Adversarial Imaging Pipelines
+### Venue: CVPR 2021
+作者提出了一个新的工作，对相机捕获到的RAW image进行攻击，由于相机会对RAW image进行后续的ISP，所以作者提出的攻击可以不受ISP的影响。作者用U-Net构建了Differentiable Proxy ISPs，用来得到ISP的近似梯度。实验部分搭建了捕获数据的平台，有一个相机拍摄屏幕上的图像，获得RAW image，然后将adversarial perturbations直接添加到RAW image上面。作者攻击的是classification任务。
