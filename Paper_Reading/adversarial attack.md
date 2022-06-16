@@ -158,4 +158,4 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 37: 20220616
 ### Title: Shadows can be Dangerous: Stealthy and Effective Physical-world Adversarial Attack by Natural Phenomenon
 ### Venue: CVPR 2022
-本文提出一种新的对抗攻击类型：影子，这是一种基于光学的方式。之所以用影子，是为了满足攻击的隐蔽性，不容易引起人注意。作者在digital domain上建模如何向image上添加影子，影子的shape是多边形，多边形的坐标是在训练过程中优化得到的，影子的value是可以调节的超参数。作者分别在digital domain和physical domain上做了实验，结果显示在untargeted attack上，攻击的成功率非常高。本文代码开源。
+本文提出一种新的对抗攻击方式：用影子进行攻击，这是一种基于光学的方式。之所以用影子，是为了满足攻击的隐蔽性，影子不容易引起人注意。作者在digital domain上建模如何向image上添加影子，影子的shape是多边形，多边形的坐标是在训练过程中优化得到的，影子的value是可以调节的超参数。在训练时，作者发现会出现梯度爆炸或者梯度消失的情况，因此作者采用了粒子群算法来寻找最优解。作者分别在digital domain和physical domain上做了实验，结果显示在untargeted attack上，攻击的成功率非常高。本文代码开源。
