@@ -155,3 +155,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Adversarial Imaging Pipelines
 ### Venue: CVPR 2021
 作者提出了一个新的工作，对相机捕获到的RAW image进行攻击，由于相机会对RAW image进行后续的ISP，所以作者提出的攻击可以不受ISP的影响。作者用U-Net构建了Differentiable Proxy ISPs，用来得到ISP的近似梯度。实验部分搭建了捕获数据的平台，有一个相机拍摄屏幕上的图像，获得RAW image，然后将adversarial perturbations直接添加到RAW image上面。作者攻击的是classification任务。
+# 37: 20220616
+### Title: Shadows can be Dangerous: Stealthy and Effective Physical-world Adversarial Attack by Natural Phenomenon
+### Venue: CVPR 2022
+本文提出一种新的对抗攻击类型：影子，这是一种基于光学的方式。之所以用影子，是为了满足攻击的隐蔽性，不容易引起人注意。作者在digital domain上建模如何向image上添加影子，影子的shape是多边形，多边形的坐标是在训练过程中优化得到的，影子的value是可以调节的超参数。作者分别在digital domain和physical domain上做了实验，结果显示在untargeted attack上，攻击的成功率非常高。本文代码开源。
