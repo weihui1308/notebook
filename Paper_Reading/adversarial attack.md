@@ -171,3 +171,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 40: 20220725
 ### Title: Threat Model-Agnostic Adversarial Defense using Diffusion Models
 ### Venue: Arxiv 202207
+
+# 41: 20220728
+### Title: Watermark Vaccine: Adversarial Attacks to Prevent Watermark Removal
+### Venue: ECCV 2022
