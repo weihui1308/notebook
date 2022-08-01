@@ -175,3 +175,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 41: 20220728
 ### Title: Watermark Vaccine: Adversarial Attacks to Prevent Watermark Removal
 ### Venue: ECCV 2022
+
+# 42: 20220801
+### Title: Adversarial Zoom Lens：A Novel Physical-World Attack to DNNs
+### Venue: Arxiv 202206
