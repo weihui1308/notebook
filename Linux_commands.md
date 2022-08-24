@@ -66,7 +66,21 @@
     $ ls -l|grep "^d"| wc -l
 7. 查看当前目录下.jpg文件的数量
     ````
-    ls -lR | grep "jpg" | wc -l
+    $ ls -lR | grep "jpg" | wc -l
+8. ncdu命令
+    ````
+    $ sudo apt install ncdu
+    Ubuntu下安装
+    $ ncdu
+    扫描当前目录，并且按照文件及文件夹占用大小，从大到小排列
+    $ d
+    删除文件
+    $ q
+    退出
+    $ ?
+    快捷键提示
+    $ ncdu 目录
+    扫描指定目录的信息
 ## 复制、移动和删除
 1. 文件夹
     ````
