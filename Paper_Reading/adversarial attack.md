@@ -166,8 +166,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 39: 20220723
 ### Title: Physical Attack on Monocular Depth Estimation with Optimal Adversarial Patches
 ### Venue: ECCV 2022
-
-
+本文提出对单目深度估计（Monocular Depth Estimation）任务的攻击，是patch-based方法。可以在physical world实现攻击。首先，为了定位感受野的敏感区域，作者设计了一种优化区域的策略，参数是patch四个顶点的位置。然后，为了使模型估计target的位置更远，作者设计了相应的目标函数。在隐蔽性方面，作者从patch size minimization和natural appearance两方面考虑，采用了风格迁移技术。本文首次在physical world中实现对单目深度估计任务的攻击。
 # 40: 20220725
 ### Title: Threat Model-Agnostic Adversarial Defense using Diffusion Models
 ### Venue: Arxiv 202207
@@ -179,3 +178,17 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 42: 20220801
 ### Title: Adversarial Zoom Lens：A Novel Physical-World Attack to DNNs
 ### Venue: Arxiv 202206
+
+# 43: 20220923
+### Title: GAMA: Generative Adversarial Multi-Object Scene Attacks
+### Venue: NeurIPS 2022
+
+
+# 44: 20220923
+### Title: Adversarial Color Projection: A Projector-Based Physical Attack to DNNs
+### Venue: Arxiv 202209
+
+# 45: 20220924
+### Title: Moiré Attack (MA): A New Potential Risk of Screen Photos
+### Venue: NIPS 2021
+本文提出摩尔纹可能会变为一种潜在的风险，并做了实验验证这一想法。作者提出Moire Attack，在digital space中，采用一种可控的摩尔纹生成算法，将其添加到imagenet数据集中的图像上。然后将添加摩尔纹之后的图像输入到Inception-V3网络中，根据输出反传回摩尔纹生成的过程，直到攻击达成。该攻击达到100%和97% ASR的untargeted attack和targeted attack，同时，由于摩尔纹是一种常见现象，因此该攻击不容易被发现。然而，这是一种digital attack，在physical space中添加摩尔纹，是难以实现的。这篇文章的写作非常精简清晰，值得参考。
