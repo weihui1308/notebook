@@ -174,6 +174,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 41: 20220728
 ### Title: Watermark Vaccine: Adversarial Attacks to Prevent Watermark Removal
 ### Venue: ECCV 2022
+本文提出水印疫苗，攻击水印去除网络，是对抗攻击技术一个典型的应用场景。作者提出两种攻击方式，一是Disrupting Watermark Vaccine（DWV，破环性水印疫苗），可以使水印去除网络的输出变为被破坏的图片；二是Inerasable Watermark Vaccine（IWV，才不掉的水印），可以使水印去除网络失效，水印去不掉，而且不影响图像其它区域。这是首次把对抗攻击应用到该应用的工作。
 
 # 42: 20220801
 ### Title: Adversarial Zoom Lens：A Novel Physical-World Attack to DNNs
@@ -192,3 +193,6 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Moiré Attack (MA): A New Potential Risk of Screen Photos
 ### Venue: NIPS 2021
 本文提出摩尔纹可能会变为一种潜在的风险，并做了实验验证这一想法。作者提出Moire Attack，在digital space中，采用一种可控的摩尔纹生成算法，将其添加到imagenet数据集中的图像上。然后将添加摩尔纹之后的图像输入到Inception-V3网络中，根据输出反传回摩尔纹生成的过程，直到攻击达成。该攻击达到100%和97% ASR的untargeted attack和targeted attack，同时，由于摩尔纹是一种常见现象，因此该攻击不容易被发现。然而，这是一种digital attack，在physical space中添加摩尔纹，是难以实现的。这篇文章的写作非常精简清晰，值得参考。
+# 46: 20220927
+### Title: Catoptric Light can be Dangerous: Effective Physical-World Attack by Natural Phenomenon
+### Venue: Arxiv 202209
