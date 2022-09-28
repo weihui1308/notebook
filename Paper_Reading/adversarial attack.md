@@ -196,9 +196,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 46: 20220927
 ### Title: Catoptric Light can be Dangerous: Effective Physical-World Attack by Natural Phenomenon
 ### Venue: Arxiv 202209
+
 # 47: 20220928
 ### Title: FG-UAP: Feature-Gathering Universal Adversarial Perturbation
 ### Venue: Arxiv 202209
+
 # 48: 20220928
 ### Title: Suppress with a Patch: Revisiting Universal Adversarial Patch Attacks against Object Detection
 ### Venue: Arxiv 202209
