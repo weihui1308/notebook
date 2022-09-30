@@ -196,7 +196,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 46: 20220927
 ### Title: Catoptric Light can be Dangerous: Effective Physical-World Attack by Natural Phenomenon
 ### Venue: Arxiv 202209
-
+本文提出一个light-based physical attack方法在夜间攻击sign classifier: adversarial catoptric light (AdvCL)。AdvCL用反射光，一种自然的现象发动转瞬即逝的攻击，隐蔽性好。它提出一种遗传算法来优化反射光的物理参数：Location, Color, Intensity。
 # 47: 20220928
 ### Title: FG-UAP: Feature-Gathering Universal Adversarial Perturbation
 ### Venue: Arxiv 202209
