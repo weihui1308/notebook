@@ -204,3 +204,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 48: 20220928
 ### Title: Suppress with a Patch: Revisiting Universal Adversarial Patch Attacks against Object Detection
 ### Venue: Arxiv 202209
+
+# 49: 20221001
+### Title: A Survey on Physical Adversarial Attack in Computer Vision
+### Venue: Arxiv 202209
