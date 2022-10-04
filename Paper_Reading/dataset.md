@@ -1,8 +1,7 @@
 # 1. (ACCV 2018)
 ## Title: NightOwls: A Pedestrians at Night Dataset
 ### Keywords: University of Oxford (VGG), Pedestrian Detection
-
-
+本文提出一个全面的公共数据集，NightOwls，用于夜间行人检测。与白天条件相比，夜间的行人检测更具挑战性，因为夜间的光照变化和低、反射、模糊和对比度变化。该数据集包含了27万9千帧，40个序列，由一个行业标准的相机在3个国家的夜间记录，包括不同的季节和天气条件。所有的帧都是完全注释的，并包含额外的对象属性，如遮挡、姿态和难度，以及跟踪信息，以在多个帧中识别相同的对象。
 # 2. (IJCAI 2020)
 ## Title: When Pedestrian Detection Meets Nighttime Surveillance: A New Benchmark
 ### Keywords: Pedestrian Detection, Nighttime Surveillance

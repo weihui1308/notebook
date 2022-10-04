@@ -213,3 +213,12 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Physical Adversarial Attack meets Computer Vision: A Decade Survey
 ### Venue: Arxiv 202210
 近年来，计算机视觉领域涌现出大量对抗攻击的工作，它们暴露了DNN-based model的脆弱性，并引起学术界和工业界对Trustworthy AI的关注。其中，发生在物理世界中的对抗攻击（physical adversarial attack）由于其在真实世界的可操作性，尤其引起人们担忧。物理对抗攻击方法多样、形式多变，但目前仍没有综述工作系统性地讨论、评估和总结该领域的发展情况和前沿研究。在本文中，我们首次关注物理对抗攻击在计算机视觉领域的进展，通过对150+篇论文的分析，提供了一个系统的综述。我们发现，在所有的物理对抗攻击方法中，携带扰动的介质（如Patch, Eyeglass, Light等）是必不可少的，于是我们提出一个新的概念：对抗介质（Adversarial medium），并围绕它，在图像分类（Classification）、检测（Detection）和重识别（Re-Identification）三大主流任务上，讨论分析了当前攻击方法的Effectiveness、Stealthiness和Robustness。并且，我们以攻击person detector为例，总结了发动物理对抗攻击的关键因素。在此基础上，我们讨论了当前物理对抗攻击领域面对的挑战和一些潜在的机会。
+# 51. 20221004
+### Title: Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection
+### Venue: NIPS 2022
+# 52. 20221004
+### Title: A survey on adversarial attacks in computer vision: Taxonomy, visualization and future directions
+### Venue: Computers & Security 2022
+# 53. 20221004
+### Title: Adversarial Objects Against LiDAR-Based Autonomous Driving Systems
+### Venue: Arxiv 2019
