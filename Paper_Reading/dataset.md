@@ -9,4 +9,4 @@
 # 3: (TPAMI 2022)
 ### Title: ZoomNAS: Searching for Whole-body Human Pose Estimation in the Wild
 ### Keywords: Whole-body human pose estimation, neural architecture search, in-the-wild dataset
-本文提出ZoomNet单网络方法，并提出ZoomNAS神经架构搜索框架，以提高全身姿态估计的准确性和效率，还引入了第一个大规模2D人体全身数据集：COCO-WholeBody V1.0。数据集：https://github.com/jin-s13/COCO-WholeBody
+本文提出ZoomNet单网络方法，并提出ZoomNAS神经架构搜索框架，以提高全身姿态估计的准确性和效率，还引入了第一个大规模2D人体全身数据集：COCO-WholeBody V1.0。数据集：https://github.com/jin-s13/COCO-WholeBody。
