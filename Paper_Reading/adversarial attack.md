@@ -228,10 +228,27 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 55. 20221007
 ### Title: Over-the-Air Adversarial Flickering Attacks against Video Recognition Networks
 ### Venue: CVPR 2021
-
-
-
-
+# 56. 20221007
+### Title: Sparse and Imperceptible Adversarial Attack via a Homotopy Algorithm
+### Venue: PMLR 2021
+# 57. 20221008
+### Title: Part-Based Models Improve Adversarial Robustness
+### Venue: Arxiv 202210
+# 58. 20221008
+### Title: Digital and Physical Face Attacks: Reviewing and One Step Further 
+### Venue: Arxiv 202209
+# 59. 20221008
+### Title: VISUAL PRIVACY PROTECTION BASED ON TYPE-I ADVERSARIAL ATTACK
+### Venue: Arxiv 202209
+# 60. 20221009
+### Title: Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop
+### Venue: NIPS 2022
+# 61. 20221009
+### Title: On Attacking Out-Domain Uncertainty Estimation in Deep Neural Networks
+### Venue: Arxiv 202210
+# 62. 20221009
+### Title: WaveSpy: Remote and Through-wall Screen Attack via mmWave Sensing
+### Venue: 2020 IEEE Symposium on Security and Privacy
 
 
 
