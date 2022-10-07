@@ -222,3 +222,16 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 53. 20221004
 ### Title: Adversarial Objects Against LiDAR-Based Autonomous Driving Systems
 ### Venue: Arxiv 2019
+# 54. 20221007
+### Title: Natural Color Fool: Towards Boosting Black-box Unrestricted Attacks
+### Venue: NIPS 2022
+# 55. 20221007
+### Title: Over-the-Air Adversarial Flickering Attacks against Video Recognition Networks
+### Venue: CVPR 2021
+
+
+
+
+
+
+
