@@ -175,7 +175,6 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Watermark Vaccine: Adversarial Attacks to Prevent Watermark Removal
 ### Venue: ECCV 2022
 本文提出水印疫苗，攻击水印去除网络，是对抗攻击技术一个典型的应用场景。作者提出两种攻击方式，一是Disrupting Watermark Vaccine（DWV，破环性水印疫苗），可以使水印去除网络的输出变为被破坏的图片；二是Inerasable Watermark Vaccine（IWV，才不掉的水印），可以使水印去除网络失效，水印去不掉，而且不影响图像其它区域。这是首次把对抗攻击应用到该应用的工作。
-
 # 42: 20220801
 ### Title: Adversarial Zoom Lens：A Novel Physical-World Attack to DNNs
 ### Venue: Arxiv 202206
@@ -249,6 +248,9 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 62. 20221009
 ### Title: WaveSpy: Remote and Through-wall Screen Attack via mmWave Sensing
 ### Venue: 2020 IEEE Symposium on Security and Privacy
-
+# 63. 20221011
+### Title: Universal Adversarial Perturbations: Efficiency on a small image dataset
+### Venue: Arxiv 202210
+这篇论文详细记录了复现一篇UAP论文（CVPR 2017）的过程。文章写作非常清晰，描述了很多细节，是一个很好的实验参考和写作参考。在复现的基础上，本文还分析了dominant labels，并和一些方法做了对比，提出了自己的一些思考。
 
 
