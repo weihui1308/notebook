@@ -252,5 +252,15 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Universal Adversarial Perturbations: Efficiency on a small image dataset
 ### Venue: Arxiv 202210
 这篇论文详细记录了复现一篇UAP论文（CVPR 2017）的过程。文章写作非常清晰，描述了很多细节，是一个很好的实验参考和写作参考。在复现的基础上，本文还分析了dominant labels，并和一些方法做了对比，提出了自己的一些思考。
-
+# 64. 20221012
+### Title: Adversarial Attack on Attackers: Post-Process to Mitigate Black-Box Score-Based Query Attacks
+### Venue: NeurIPS 2022
+上海交通大学自动化系图像处理与模式识别研究所黄晓霖副教授团队。本文关注真实场景的防御，提出主动对攻击者实施攻击，在保证用户正常使用模型（无精度/速度损失）的同时，有效阻止黑盒攻击者通过查询模型输出生成对抗样本。本文考虑通过后处理来防御，其自带以下优点：有效防御基于查询分数的攻击；不影响模型精度，甚至还能使模型的置信度更加准确；是一种轻量化，即插即用的方法。核心思路是，测试阶段主动误导攻击者进入错误的攻击方向，也就是对攻击者发动攻击（adversarial attack on attackers, AAA）
+# 65. 20221013
+### Title: Symmetry Subgroup Defense Against Adversarial Attacks
+### Venue: Arxiv 202210
+本文是一篇关于adversarial defense的工作。作者强调当前CNN分类网络缺乏不变性，例如对一张图片进行对称的transformation，分类网络就会把这张图片分类错误。利用CNN的这一内在特性，作者提出Symmetry Subgroup Defense，即将adversarial example进行symmetrically transformation，以使其失去攻击力，使分类器重新将其分类为正确标签。本文写作方式很特别，用了大量的符号定义。
+# 66. 20221014
+### Title: Interpreting Attributions and Interactions of Adversarial Attacks
+### Venue: ICCV 2021
 
