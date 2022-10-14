@@ -82,7 +82,7 @@
 # 18: 20220512
 ### Title: Explaining and Harnessing Adversarial Examples
 ### Venue: ICLR 2015
-本文提出FGSM（fast gradient sign method）攻击算法，该算法通过修改输入图像的像素值使得修改后的图像能够扰乱分类网络的分。具体做法是：一方面是基于输入图像计算梯度，另一方面在更新输入图像时是加上梯度，而不是减去梯度，这和常见的分类模型更新参数正好背道而驰，以此使模型产生错误的预测结果。
+本文提出FGSM（fast gradient sign method）攻击算法，该算法通过修改输入图像的像素值使得修改后的图像能够扰乱分类网络的得分。具体做法是：一方面是基于输入图像计算梯度，另一方面在更新输入图像时是加上梯度，而不是减去梯度，这和常见的分类模型更新参数正好背道而驰，以此使模型产生错误的预测结果。
 # 19: 20220512
 ### Title: Adversarial examples in the physical world
 ### Venue: ICLR 2017
@@ -248,6 +248,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 62. 20221009
 ### Title: WaveSpy: Remote and Through-wall Screen Attack via mmWave Sensing
 ### Venue: 2020 IEEE Symposium on Security and Privacy
+本文设计了一种可以远程甚至是隔墙的窥屏技术WaveSpy。该技术利用在远程毫米波传感器下的液晶响应效应，是一种end to end层级系统。作者实验评估了这种屏幕攻击的效果，结果显示在真实世界中，WaveSpy实现了99%的屏幕内容类型识别和87.7%的敏感信息检索。作者把该任务称为Screen Attack。
 # 63. 20221011
 ### Title: Universal Adversarial Perturbations: Efficiency on a small image dataset
 ### Venue: Arxiv 202210
@@ -263,4 +264,13 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 66. 20221014
 ### Title: Interpreting Attributions and Interactions of Adversarial Attacks
 ### Venue: ICCV 2021
-
+# 67. 20221014
+### Title: Evaluating the Robustness of Semantic Segmentation for Autonomous Driving against Real-World Adversarial Patch Attacks
+### Venue: WACV 2022
+本文首次在physical world中攻击Semantic Segmentation任务。所提方法是一个中规中矩的patch-based attack方法。关注的是real-world driving scenario。
+# 68. 20221014
+### Title: Harnessing Perceptual Adversarial Patches for Crowd Counting
+### Venue: ACM CCS
+# 69. 20221014
+### Title: Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series
+### Venue: IJCNN 2020
