@@ -9,11 +9,11 @@
 # 3: 20220503
 ### Title: Fooling automated surveillance cameras: adversarial patches to attack person detection
 ### Venue: CVPRW 2019
-用Adversarial Patch攻击detector(YOLOv2)，实现physical attack。
+用Adversarial Patch攻击detector(YOLOv2)，实现physical adversarial attack。
 # 4: 20220504
 ### Title: Fooling thermal infrared pedestrian detectors in real world using small bulbs
 ### Venue: AAAI 2021
-将Adversarial Patch攻击应用在热红目标检测任务中，用发光的小灯泡制作patch，实现了physical attack。
+将Adversarial Patch攻击应用在热红外成像下的目标检测任务中，用发光的小灯泡制作patch，实现了physical attack。
 # 5: 20220504
 ### Title: Adversarial T-shirt! Evading Person Detectors in A Physical World
 ### Venue: ECCV 2020
@@ -140,9 +140,9 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Venue: CVPRW 2018
 本文通过将image从RGB空间转移到HSV空间，生成Semantic Adversarial Examples，在搜索时只改变H和S，以保证图像的语义结构。生成的对抗样本，人的视觉仍然可以辨认出图像中的物体，但是分类模型会给出错误的预测。
 # 33: 20220528
-### Title: Diffusion Models for Adversarial Purification
-### Venue: PMLR 2022
-本文用diffusion model做对抗防御，效果非常好。训练时方法的输入是Adversarial image，经过diffusion model，输出Purified image，然后将其输入一个classifier中，使其分类正确。这是首次利用diffusion model来做Adversarial Purification。
+### Title: Attacking Optical Flow
+### Venue: ICCV 2019
+本文首次提出攻击Optical Flow Estimation，并且实现了attack in the real world。本文采用的是patch-based attack。通过实验，本文发现基于encoder-decoder networks的model，面对攻击时非常脆弱，然而攻击对spatial pyramid networks的影响很小，对传统的非deep learning方法的影响也很有限。
 # 34: 20220530
 ### Title: A Survey on Universal Adversarial Attack
 ### Venue: IJCAI 2021
@@ -160,9 +160,9 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Venue: CVPR 2022
 本文提出一种新的对抗攻击方式：用影子进行攻击，这是一种基于光学的方式。之所以用影子，是为了满足攻击的隐蔽性，影子不容易引起人注意。作者在digital domain上建模如何向image上添加影子，影子的shape是多边形，多边形的坐标是在训练过程中优化得到的，影子的value是可以调节的超参数。在训练时，作者发现会出现梯度爆炸或者梯度消失的情况，因此作者采用了粒子群算法来寻找最优解。作者分别在digital domain和physical domain上做了实验，结果显示在untargeted attack上，攻击的成功率非常高。本文代码开源。
 # 38: 20220630
-### Title: Dual-Key Multimodal Backdoors for Visual Question Answering
-### Venue: CVPR 2022
-本文首次提出对多模态任务的后门攻击，攻击任务是VQA model。攻击方法用两个trigger，一个是question trigger, 一个是visual trigger。只有当两个trigger都出现时，才会触发攻击，单独出现一个不会触发。本文提出了一个实验证明：越复杂的模型，面对后面攻击越脆弱。
+### Title: Harnessing Perceptual Adversarial Patches for Crowd Counting
+### Venue: ACM CCS 2022
+
 # 39: 20220723
 ### Title: Physical Attack on Monocular Depth Estimation with Optimal Adversarial Patches
 ### Venue: ECCV 2022
@@ -213,8 +213,9 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Venue: Arxiv 202210
 近年来，计算机视觉领域涌现出大量对抗攻击的工作，它们暴露了DNN-based model的脆弱性，并引起学术界和工业界对Trustworthy AI的关注。其中，发生在物理世界中的对抗攻击（physical adversarial attack）由于其在真实世界的可操作性，尤其引起人们担忧。物理对抗攻击方法多样、形式多变，但目前仍没有综述工作系统性地讨论、评估和总结该领域的发展情况和前沿研究。在本文中，我们首次关注物理对抗攻击在计算机视觉领域的进展，通过对150+篇论文的分析，提供了一个系统的综述。我们发现，在所有的物理对抗攻击方法中，携带扰动的介质（如Patch, Eyeglass, Light等）是必不可少的，于是我们提出一个新的概念：对抗介质（Adversarial medium），并围绕它，在图像分类（Classification）、检测（Detection）和重识别（Re-Identification）三大主流任务上，讨论分析了当前攻击方法的Effectiveness、Stealthiness和Robustness。并且，我们以攻击person detector为例，总结了发动物理对抗攻击的关键因素。在此基础上，我们讨论了当前物理对抗攻击领域面对的挑战和一些潜在的机会。
 # 51. 20221004
-### Title: Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection
-### Venue: NIPS 2022
+### Title: Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series
+### Venue: IJCNN 2020
+
 # 52. 20221004
 ### Title: A survey on adversarial attacks in computer vision: Taxonomy, visualization and future directions
 ### Venue: Computers & Security 2022
@@ -253,24 +254,16 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Universal Adversarial Perturbations: Efficiency on a small image dataset
 ### Venue: Arxiv 202210
 这篇论文详细记录了复现一篇UAP论文（CVPR 2017）的过程。文章写作非常清晰，描述了很多细节，是一个很好的实验参考和写作参考。在复现的基础上，本文还分析了dominant labels，并和一些方法做了对比，提出了自己的一些思考。
-# 64. 20221012
-### Title: Adversarial Attack on Attackers: Post-Process to Mitigate Black-Box Score-Based Query Attacks
-### Venue: NeurIPS 2022
-上海交通大学自动化系图像处理与模式识别研究所黄晓霖副教授团队。本文关注真实场景的防御，提出主动对攻击者实施攻击，在保证用户正常使用模型（无精度/速度损失）的同时，有效阻止黑盒攻击者通过查询模型输出生成对抗样本。本文考虑通过后处理来防御，其自带以下优点：有效防御基于查询分数的攻击；不影响模型精度，甚至还能使模型的置信度更加准确；是一种轻量化，即插即用的方法。核心思路是，测试阶段主动误导攻击者进入错误的攻击方向，也就是对攻击者发动攻击（adversarial attack on attackers, AAA）
-# 65. 20221013
-### Title: Symmetry Subgroup Defense Against Adversarial Attacks
-### Venue: Arxiv 202210
-本文是一篇关于adversarial defense的工作。作者强调当前CNN分类网络缺乏不变性，例如对一张图片进行对称的transformation，分类网络就会把这张图片分类错误。利用CNN的这一内在特性，作者提出Symmetry Subgroup Defense，即将adversarial example进行symmetrically transformation，以使其失去攻击力，使分类器重新将其分类为正确标签。本文写作方式很特别，用了大量的符号定义。
-# 66. 20221014
+# 64. 20221014
 ### Title: Interpreting Attributions and Interactions of Adversarial Attacks
 ### Venue: ICCV 2021
-# 67. 20221014
+
+# 65. 20221014
 ### Title: Evaluating the Robustness of Semantic Segmentation for Autonomous Driving against Real-World Adversarial Patch Attacks
 ### Venue: WACV 2022
-本文首次在physical world中攻击Semantic Segmentation任务。所提方法是一个中规中矩的patch-based attack方法。关注的是real-world driving scenario。
-# 68. 20221014
-### Title: Harnessing Perceptual Adversarial Patches for Crowd Counting
-### Venue: ACM CCS
-# 69. 20221014
-### Title: Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series
-### Venue: IJCNN 2020
+本文首次在physical world中攻击Semantic Segmentation任务。所提方法是一个中规中矩的patch-based attack方法。关注的是real-world driving scenario。通过实验结果，本文得出一个结论：Semantic Segmentation Model在physical world中有较强的robustness，patch-based attack的效果在real world中并不好。
+# 66. 20221015
+### Title: Too Good to Be Safe: Tricking Lane Detection in Autonomous Driving with Crafted Perturbations
+### Venue: USENIX 2021
+
+# 67. 20221015
