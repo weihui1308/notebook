@@ -10,3 +10,7 @@
 ### Title: ZoomNAS: Searching for Whole-body Human Pose Estimation in the Wild
 ### Keywords: Whole-body human pose estimation, neural architecture search, in-the-wild dataset
 本文提出ZoomNet单网络方法，并提出ZoomNAS神经架构搜索框架，以提高全身姿态估计的准确性和效率，还引入了第一个大规模2D人体全身数据集：COCO-WholeBody V1.0。数据集：https://github.com/jin-s13/COCO-WholeBody。
+# 3: (NIPS 2022)
+### Title: Flare7K: A Phenomenological Nighttime Flare Removal Dataset
+### Keywords: nighttime flare removal, dataset, scattering flares, reflective flares
+第一个夜间炫光去除数据集——Flare7K。它是基于对真实世界夜间镜片炫光的观察和统计生成的。提供了5000个炫光和2000个反射炫光图像，包括25种散射炫光和10种反射炫光。开源。南洋理工大学。

@@ -5,7 +5,7 @@
 # 2. 20220725
 ### Title: Threat Model-Agnostic Adversarial Defense using Diffusion Models
 ### Venue: Arxiv 202207
-
+本文是adversarial defense和diffusion model的结合，作者利用热门的diffusion model，提出了一种preprocessing defense mechanism来防御攻击。该方法首先用threat model在image上添加扰动，得到adversarial example，然后在其上添加高斯noise，再把它输入到一个diffusion model的reverse diffusion process，由于该步骤本身就是remove noise的过程，因此可以把adversarial perturbation也remove掉。
 # 3. 20221012
 ### Title: Adversarial Attack on Attackers: Post-Process to Mitigate Black-Box Score-Based Query Attacks
 ### Venue: NeurIPS 2022

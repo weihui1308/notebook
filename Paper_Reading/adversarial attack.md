@@ -265,5 +265,8 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 66. 20221015
 ### Title: Too Good to Be Safe: Tricking Lane Detection in Autonomous Driving with Crafted Perturbations
 ### Venue: USENIX 2021
-
+本文首次攻击Lane Detection任务，并在physical world中实现了。本文首先在数字世界中寻找最好的扰动，具体地，建立了一个基于摄动的可见度和相应检测车道的可见度的优化问题，以找到最优的可导致虚假车道但不被人类感知的摄动。然后，根据数字世界的最佳干扰，在现实世界中部署标记，然后评估对真实车辆的攻击。本文在一辆特斯拉S型汽车上进行了大量的实验，实验结果表明车道检测模块可以被非常不显眼的扰动欺骗，从而创建车道，在自动转向模式下误导车辆。
 # 67. 20221015
+### TItle: Pre-trained Adversarial Perturbations
+### Venue: NIPS 2022
+
