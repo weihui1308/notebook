@@ -18,3 +18,6 @@
 ### Title: Defending Against Adversarial Attacks via Neural Dynamic System
 ### Venue: NIPS 2022
 DNN容易被攻击的性质阻碍了其在安全关键领域的应用。为了解决这个问题，最近的一些研究提出从动力系统的角度来增强DNN的鲁棒性。根据这一思路，本文受到非自治动力系统的渐近稳定性的启发，将每个自然样本都变成缓慢时变动力系统的渐近稳定平衡点，以防御对抗攻击。本文根据动力系统平衡点理论提出: 如果一个自然样本是一个渐近稳定的平衡点，而对抗样本在这个平衡点附近，那么渐近稳定性可以降低对抗噪声，使对抗样本接近自然样本。在这个理论结果的基础上，本文发明了一种基于非自治神经常微分方程的算法(ASODE)，并对其相应的线性系统施加约束，使所有自然样本成为动力系统的渐近稳定平衡点。通过分析，这些约束可以通过转换为损失函数中的正则化项来实现。实验结果表明，ASODE提高了DNN的鲁棒性，并且优于现有的方法。
+# 6. 20221018
+### Title: Segment and Complete: Defending Object Detectors against Adversarial Patch
+### Venue: CVPR 2022

@@ -270,3 +270,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### TItle: Pre-trained Adversarial Perturbations
 ### Venue: NIPS 2022
 
+# 68. 20221017
+### TItle: Face Pasting Attack
+### Venue: Arxiv 202210
+本文只有4页，但论文的各个部分都有，主要内容是记录了参加的一个比赛所用的方法，他们在比赛中取得了第三名的成绩。该比赛关注攻击人脸识别模型，提供了API接口。文中有介绍该比赛的部分。作者采用的方法非常直接，代码开源。
