@@ -274,3 +274,16 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### TItle: Face Pasting Attack
 ### Venue: Arxiv 202210
 本文只有4页，但论文的各个部分都有，主要内容是记录了参加的一个比赛所用的方法，他们在比赛中取得了第三名的成绩。该比赛关注攻击人脸识别模型，提供了API接口。文中有介绍该比赛的部分。作者采用的方法非常直接，代码开源。
+# 69. 20221018
+### TItle: Learning Coated Adversarial Camouflages for Object Detectors
+### Venue: IJCAI 2022
+
+# 70. 20221019
+### TItle: 360-Attack: Distortion-Aware Perturbations from Perspective-Views
+### Venue: CVPR 2022
+作者提出在spherical images上添加扰动，生成spherical adversarial example。spherical images是有全景相机采集到的，近年来被广泛应用。在处理spherical images时，有两类方法，一类是先把spherical images投影为2D images，然后再进行后续的处理；另一类是直接在spherical image domain上进行处理。本文采用方法中规中矩，但是adversarial attack与新领域的结合。实验评估时，作者攻击了3D Object Classification任务。
+# 71. 20221020
+### Title: Attacking Motion Estimation with Adversarial Snow
+### Venue: ECCV Workshop 2022
+本文针对motion estimation algorithms，设计了一个differentiable snowflake renderer来生成adversarial example。本文探索optical flow methods在真实世界的鲁棒性，例如在下雪的环境中。不同于以往方法在图像上添加2D per-pixel perturbations，该方法通过优化3D spatial positions of snowflakes in the scene，生成的adversarial example不仅攻击性好，而且视觉上是自然的。
+
