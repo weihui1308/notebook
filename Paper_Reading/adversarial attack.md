@@ -215,7 +215,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 51. 20221004
 ### Title: Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series
 ### Venue: IJCNN 2020
-
+本文对time series classification models进行targeted, untargeted, and universal adversarial attack。实验结果显示传统的攻击方法如FGSM和BIM可以在该任务上取得很高的攻击成功率。采用的数据集是UCR time series datasets。文中有对adversarial attack如何分类进行了说明。
 # 52. 20221004
 ### Title: A survey on adversarial attacks in computer vision: Taxonomy, visualization and future directions
 ### Venue: Computers & Security 2022
@@ -281,7 +281,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 70. 20221019
 ### TItle: 360-Attack: Distortion-Aware Perturbations from Perspective-Views
 ### Venue: CVPR 2022
-作者提出在spherical images上添加扰动，生成spherical adversarial example。spherical images是有全景相机采集到的，近年来被广泛应用。在处理spherical images时，有两类方法，一类是先把spherical images投影为2D images，然后再进行后续的处理；另一类是直接在spherical image domain上进行处理。本文采用方法中规中矩，但是adversarial attack与新领域的结合。实验评估时，作者攻击了3D Object Classification任务。
+作者提出在spherical images上添加扰动，生成spherical adversarial example。spherical images是有全景相机采集到的，近年来被广泛应用。在处理spherical images时，有两类方法，一类是先把spherical images投影为2D images，然后再进行后续的处理；另一类是直接在spherical image domain上进行处理。本文采用方法中规中矩，但这个工作是adversarial attack与新领域的结合。实验评估时，作者攻击了3D Object Classification任务。
 # 71. 20221020
 ### Title: Attacking Motion Estimation with Adversarial Snow
 ### Venue: ECCV Workshop 2022
