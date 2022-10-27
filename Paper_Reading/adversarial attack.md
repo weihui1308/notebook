@@ -277,7 +277,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 69. 20221018
 ### TItle: Learning Coated Adversarial Camouflages for Object Detectors
 ### Venue: IJCAI 2022
-
+本文分析了利用patch进行攻击的弊端：在3D object上多视角攻击下性能会降低。基于此，提出了Coated Adversarial Camouflages。作者提出dense proposals attack strategy，而且建立了一个Unity simulation scene来评估攻击性。在physical world，作者利用3D打印技术，将生成的camouflage印在3D object上，用以评测physical attack的效果。
 # 70. 20221019
 ### TItle: 360-Attack: Distortion-Aware Perturbations from Perspective-Views
 ### Venue: CVPR 2022
