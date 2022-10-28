@@ -21,3 +21,51 @@ DNN容易被攻击的性质阻碍了其在安全关键领域的应用。为了�
 # 6. 20221018
 ### Title: Segment and Complete: Defending Object Detectors against Adversarial Patch
 ### Venue: CVPR 2022
+1. Why? 
+2. What?
+3. How?
+4. How much? 
+5. What then?
+# 7. 20221028
+### Title: Efficient and Effective Augmentation Strategy for Adversarial Training
+### Venue: NIPS 2022
+1. Why? Adversarial training是data-hungry的，而且Adversarial training无法像数据增广方法一样为模型（image classifier）提供很大的性能提升。
+2. What? 本文首先分析了Adversarial training中strong data augmentations失败的原因，基于此提出了Diverse Augmentation based Joint Adversarial Training来进行更有效的Adversarial training。然后将DAJAT整合进入了两阶段的训练策略中，提出Ascending Constraint Adversarial Training (ACAT) 。通过实验验证了所提方法的性能。
+3. How? 作者把训练阶段的数据增广看作一个domain generalization问题，分析了数据增广的影响和扮演的角色。
+4. How much? 在ResNet-18 and WideResNet-34-10模型上，本文提出的方法在防御方面取得SOTA。
+5. What then? 本文只关注effective，没有关注which augmentations are best suited for the same.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

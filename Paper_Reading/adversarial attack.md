@@ -162,7 +162,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 38: 20220630
 ### Title: Harnessing Perceptual Adversarial Patches for Crowd Counting
 ### Venue: ACM CCS 2022
-
+1. Why? 
+2. What?
+3. How?
+4. How much? 
+5. What then?
 # 39: 20220723
 ### Title: Physical Attack on Monocular Depth Estimation with Optimal Adversarial Patches
 ### Venue: ECCV 2022
@@ -170,7 +174,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 40: 20220725
 ### Title: Threat Model-Agnostic Adversarial Defense using Diffusion Models
 ### Venue: Arxiv 202207
-
+1. Why? 
+2. What?
+3. How?
+4. How much? 
+5. What then?
 # 41: 20220728
 ### Title: Watermark Vaccine: Adversarial Attacks to Prevent Watermark Removal
 ### Venue: ECCV 2022
@@ -246,6 +254,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 61. 20221009
 ### Title: On Attacking Out-Domain Uncertainty Estimation in Deep Neural Networks
 ### Venue: Arxiv 202210
+1. Why? 
+2. What?
+3. How?
+4. How much? 
+5. What then?
 # 62. 20221009
 ### Title: WaveSpy: Remote and Through-wall Screen Attack via mmWave Sensing
 ### Venue: 2020 IEEE Symposium on Security and Privacy
@@ -257,7 +270,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 64. 20221014
 ### Title: Interpreting Attributions and Interactions of Adversarial Attacks
 ### Venue: ICCV 2021
-
+1. Why? 
+2. What?
+3. How?
+4. How much? 
+5. What then?
 # 65. 20221014
 ### Title: Evaluating the Robustness of Semantic Segmentation for Autonomous Driving against Real-World Adversarial Patch Attacks
 ### Venue: WACV 2022
@@ -269,7 +286,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 67. 20221015
 ### TItle: Pre-trained Adversarial Perturbations
 ### Venue: NIPS 2022
-
+1. Why? 
+2. What?
+3. How?
+4. How much? 
+5. What then?
 # 68. 20221017
 ### TItle: Face Pasting Attack
 ### Venue: Arxiv 202210
@@ -286,4 +307,15 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Attacking Motion Estimation with Adversarial Snow
 ### Venue: ECCV Workshop 2022
 本文针对motion estimation algorithms，设计了一个differentiable snowflake renderer来生成adversarial example。本文探索optical flow methods在真实世界的鲁棒性，例如在下雪的环境中。不同于以往方法在图像上添加2D per-pixel perturbations，该方法通过优化3D spatial positions of snowflakes in the scene，生成的adversarial example不仅攻击性好，而且视觉上是自然的。
-
+# 72. 20221028
+### Title: Isometric 3D Adversarial Examples in the Physical World
+### Venue: NIPS 2022
+本文探索在物理空间对3D点云识别模型的攻击。为了提高3D adversarial example的naturalness，作者约束其在一个$\epsilon$-isometric内。为了提高robustness under physical world，作者提出maxima over transformation (MaxOT) method来search最harmful的transformations。物理攻击的实验策略如下：在数字空间生成3d adversarial example，然后采用3d打印技术生成这些example，生成之后再对其进行扫描，把扫描的点云数据输入识别模型进行攻击。
+# 67. 20221015
+### TItle: Pre-trained Adversarial Perturbations
+### Venue: NIPS 2022
+1. Why? 
+2. What?
+3. How?
+4. How much? 
+5. What then?
