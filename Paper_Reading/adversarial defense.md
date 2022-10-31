@@ -19,13 +19,13 @@
 ### Venue: NIPS 2022
 DNN容易被攻击的性质阻碍了其在安全关键领域的应用。为了解决这个问题，最近的一些研究提出从动力系统的角度来增强DNN的鲁棒性。根据这一思路，本文受到非自治动力系统的渐近稳定性的启发，将每个自然样本都变成缓慢时变动力系统的渐近稳定平衡点，以防御对抗攻击。本文根据动力系统平衡点理论提出: 如果一个自然样本是一个渐近稳定的平衡点，而对抗样本在这个平衡点附近，那么渐近稳定性可以降低对抗噪声，使对抗样本接近自然样本。在这个理论结果的基础上，本文发明了一种基于非自治神经常微分方程的算法(ASODE)，并对其相应的线性系统施加约束，使所有自然样本成为动力系统的渐近稳定平衡点。通过分析，这些约束可以通过转换为损失函数中的正则化项来实现。实验结果表明，ASODE提高了DNN的鲁棒性，并且优于现有的方法。
 # 6. 20221018
-### Title: Segment and Complete: Defending Object Detectors against Adversarial Patch
+### Title: Segment and Complete: Defending Object Detectors against Adversarial Patch Attacks with Robust Patch Detection
 ### Venue: CVPR 2022
-1. Why? 
-2. What?
-3. How?
-4. How much? 
-5. What then?
+1. Why? 目标检测器受到adversarial patch的严重威胁。
+2. What? 本文提出Segment and Complete （SAC）方法来防御adversarial patch的攻击，经过实验验证了SAC的有效性和鲁棒性，并且提出了一个数据集APRICOT-Mask，该数据集提供了对adversarial patch像素级的标注。
+3. How? 首先利用model分割adversarial patch，然后将patch去除，然后进行检测。
+4. How much? 攻击成功率从7.97%下降到了2.17%。
+5. What then? 把patch去除升级为对相应区域进行inpaint。
 # 7. 20221028
 ### Title: Efficient and Effective Augmentation Strategy for Adversarial Training
 ### Venue: NIPS 2022

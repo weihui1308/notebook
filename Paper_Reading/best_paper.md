@@ -1,22 +1,28 @@
 # 2022
 ## 1. ACM MM
-## Search-oriented Micro-video Captioning
-1. Why? 
-2. What? 
-3. How? 
-4. How much? 
-5. What then? 
+## Title: Search-oriented Micro-video Captioning
+1. Why? 以往工作致力于以内容为导向的视频字幕工作，从创作者的角度生成相关的句子来描述给定视频的视觉内容。这项工作的目标则是以搜索为导向，通过用户的角度生成关键词来总结给定的视频。除了相关性，多样性对于从不同角度描述用户的搜索意向也至关重要。
+2. What? 这篇论文主要研究如何为“没有视频描述的短视频”自动生成一个文本描述的问题。为了给38%没有文字描述的短视频自动生成有一个抽象的文本描述，研究者通过建立相关模型，从针对用户搜索需求的角度自动生成文本去描述一个短视频，以满足用户搜索视频的多样化需求。
+3. How? 本文设计了一个大规模多模态的预训练网络，通过五个任务来加强下游视频表征，该网络在研究团队收集的 1100 万个微视频上训练。之后，研究团队提出了一种基于流的多样化字幕模型，以根据用户的搜索需求生成不同的字幕。
+4. How much? 该模型通过重建损失在先验和后验之间的KL分歧进行优化。通过构建由 69 万个<查询，短视频>对组成的黄金数据集合，作者验证了他们的模型，实验结果也证明了其优越性。据了解，这项工作所研发的“短视频摘要生成算法”在快手得到落地，已平稳运行半年，每日处理约 3 千万个短视频。
+5. What then? 可扩展性、灵活性和实用性。
 ## 2. CVPR
-## Learning to Solve Hard Minimal Problems
+## Title: Learning to Solve Hard Minimal Problems
 1. Why? 
 2. What? 
 3. How? 
 4. How much? 
 5. What then? 
 ## 3. ECCV
-## On the Versatile Uses of Partial Distance Correlation in Deep Learning
+## Title: On the Versatile Uses of Partial Distance Correlation in Deep Learning
+代码开源。比较神经网络模型的功能行为，无论是在训练期间的单个网络，还是训练一段时间后的两个网络（或更多网络），这些是了解模型正在学习什么（以及它们没有学习什么）的重要步骤，同时也是确定规范化或提高效率的重要策略。
+最近的研究已经取得了一些进展，例如研究者将视觉 transformers 与 CNN 进行比较，但系统地比较功能，特别是在不同的网络之间，仍然存在很多困难，通常的做法是一层一层地进行比较。
+CCA（canonical correlation analysis）等方法在原则上适用，但迄今为止用的人很少。本文回顾了统计学中一个鲜为人知的概念，称为距离相关（及其部分变体），它被设计用来评估不同维度特征空间之间的相关性。该研究描述了将其部署到大规模模型的必要步骤，这为一系列应用打开了大门，包括调节一个深度模型，学习解耦表示，以及优化不同的模型，这些模型在应对对抗攻击时，鲁棒性更好。
+# 67. xxx
+### Title: xxx
+### Venue: xxx
 1. Why? 
-2. What? 
-3. How? 
+2. What?
+3. How?
 4. How much? 
-5. What then? 
+5. What then?

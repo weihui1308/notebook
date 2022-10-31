@@ -311,9 +311,25 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Isometric 3D Adversarial Examples in the Physical World
 ### Venue: NIPS 2022
 本文探索在物理空间对3D点云识别模型的攻击。为了提高3D adversarial example的naturalness，作者约束其在一个$\epsilon$-isometric内。为了提高robustness under physical world，作者提出maxima over transformation (MaxOT) method来search最harmful的transformations。物理攻击的实验策略如下：在数字空间生成3d adversarial example，然后采用3d打印技术生成这些example，生成之后再对其进行扫描，把扫描的点云数据输入识别模型进行攻击。
-# 67. 20221015
-### TItle: Pre-trained Adversarial Perturbations
-### Venue: NIPS 2022
+# 73. 20221028
+### Title: Toward Understanding and Boosting Adversarial Transferability From a Distribution Perspective
+### Venue: TIP 2022
+1. Why? 现有研究已经提出了很多方法来增强对抗迁移性，但是迁移性的原因依旧是未解之谜。无目标攻击对抗样本的迁移性在源模型和目标模型结构相似时效果尚佳，但是如果模型结构差异较大时效果下降明显，如从 CNN 迁移到 ViT。有目标攻击场景下，使用迭代方法产生的对抗样本的迁移性非常低，目前效果最佳的方法是基于生成模型的方法，需要针对每一个目标类别训练生成模型。
+2. What? 考虑到在做图像识别时，模型架构是多种多样的，但是它们都有一个共同的点--训练数据集是服从相同分布的。深度学习中有一个典型的假设“独立同分布”，即验证集的数据与训练集的数据虽然是独立的，但是是服从相同的数据分布的。不同模型都期待能够将属于特定分布的图像分类为特定类别，比如将来自于“猫”类别的图像预测为“猫”。但是如果样本是一个分布外样本(out-of-distribution)，深度模型往往难以给出准确的预测。因此本文提出从data distribution的角度理解adversarial transferability。此外，本文提出一个匹配模型梯度和数据分布梯度的方法。
+3. How? 本文提出应该从数据分布的视角来理解迁移性，如果无目标攻击能够使数据成为分布外样本，那么不同的模型都将难以识别该样本，这样的无目标攻击应该具有更强的迁移性；如果有目标攻击能够使数据成为目标分布内的样本，那么不同的模型都倾向于将该样本分类为目标类。
+4. How much? 现有最佳基于生成模型的攻击方法TTP成功率是46.47%，而本文方法可以达到75.93%的成功率，超过现有最佳方法 29.46%。目前有目标迁移性攻击效果最佳的方法。
+5. What then? 文中没有提到。个人考虑：从数据分布的角度考虑adversarial attack。
+# 74. 20221031
+### Title: Adversarial Patch Attack on Multi-Scale Object Detection for UAV Remote Sensing Images
+### Venue: remote sensing
+1. Why? 目前，针对遥感图像的攻击有如下挑战：当前大多数都关注digital attack；遥感图像的number of objects比images captured on the ground要多，因此adversarial effect on all objects更有难度；遥感图像中objects的size有很大不同。
+2. What? 本文formulate a joint optimization problem来生成更有攻击力的adversarial patch，并且提出scale factor来rescale对抗补丁。在物理空间做了实验。
+3. How? 在物理空间的实验，采集数据设备是一台DJI Mini 2。方法和主流的adversarial patch attack类似。
+4. How much? 攻击了YOLO-v3和YOLO-v5。
+5. What then? 在physical space中，高度变化会带来攻击性能的下降。
+# 67. xxx
+### Title: xxx
+### Venue: xxx
 1. Why? 
 2. What?
 3. How?
