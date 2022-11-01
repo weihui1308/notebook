@@ -327,11 +327,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 3. How? 在物理空间的实验，采集数据设备是一台DJI Mini 2。方法和主流的adversarial patch attack类似。
 4. How much? 攻击了YOLO-v3和YOLO-v5。
 5. What then? 在physical space中，高度变化会带来攻击性能的下降。
-# 67. xxx
-### Title: xxx
-### Venue: xxx
-1. Why? 
-2. What?
-3. How?
-4. How much? 
-5. What then?
+# 75. 20221101
+### Title: Benchmarking Adversarial Patch Against Aerial Detection
+### Venue: Arxiv 202211
+1. Why? 当前的patch攻击方法是time-consuming, high computation costs; 迁移到物理空间性能会降低等。
+2. What? 提出了对aerial detection任务的攻击，采用的是patch-based attack。
+3. How? 本文在多个detector上做实验。
+4. How much? AP下降87.86% and 85.48% in white-box and blackbox settings, respectively。
+5. What then? search patch的最优位置和形状。
