@@ -18,11 +18,6 @@
 代码开源。比较神经网络模型的功能行为，无论是在训练期间的单个网络，还是训练一段时间后的两个网络（或更多网络），这些是了解模型正在学习什么（以及它们没有学习什么）的重要步骤，同时也是确定规范化或提高效率的重要策略。
 最近的研究已经取得了一些进展，例如研究者将视觉 transformers 与 CNN 进行比较，但系统地比较功能，特别是在不同的网络之间，仍然存在很多困难，通常的做法是一层一层地进行比较。
 CCA（canonical correlation analysis）等方法在原则上适用，但迄今为止用的人很少。本文回顾了统计学中一个鲜为人知的概念，称为距离相关（及其部分变体），它被设计用来评估不同维度特征空间之间的相关性。该研究描述了将其部署到大规模模型的必要步骤，这为一系列应用打开了大门，包括调节一个深度模型，学习解耦表示，以及优化不同的模型，这些模型在应对对抗攻击时，鲁棒性更好。
-# 67. xxx
-### Title: xxx
-### Venue: xxx
-1. Why? 
-2. What?
-3. How?
-4. How much? 
-5. What then?
+## 4. SIGGRAPH
+## Title: CLIPasso: Semantically-Aware Object Sketching
+本文提出了一个Sketching方法，CLIPasso。该方法可以将一张图片抽象为一幅简笔画，并且可以控制抽象的程度（通过控制笔画数实现）和抽象的风格（通过控制曲线的degree实现）。CLIPasso利用了CLIP模型的语义建模能力（它对visual feature和visual depiction feature进行encoder），在高维空间学习抽象的语义特征。CLIP模型非常擅长做sketching这个工作。CLIPaaso的效果非常惊艳，作者进行了定性和定量实验。文章写作非常具体，代码开源。文中用了许多trick，可以follow。此外，将该任务建模为Bezier Curve也非常巧妙。
