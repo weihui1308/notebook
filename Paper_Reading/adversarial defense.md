@@ -34,7 +34,14 @@ DNN容易被攻击的性质阻碍了其在安全关键领域的应用。为了�
 3. How? 作者把训练阶段的数据增广看作一个domain generalization问题，分析了数据增广的影响和扮演的角色。
 4. How much? 在ResNet-18 and WideResNet-34-10模型上，本文提出的方法在防御方面取得SOTA。
 5. What then? 本文只关注effective，没有关注which augmentations are best suited for the same.
-
+# 8. 20221103
+### Title: The Enemy of My Enemy is My Friend: Exploring Inverse Adversaries for Improving Adversarial Training
+### Venue: Arxiv 202211
+1. Why? 当前的adversarial training方法关注legitimate examples和adversarial examples之间的 distribution alignment，但这种凡事存在 feature representation gap，引入undesirable decision boundary。
+2. What? 基于 inverse version of adversarial examples，提出了一个novel adversarial training framework；而且，作者设计了一个class-specific universal inverse adversary generation strategy。
+3. How? 提出inverse adversarial example，引入class-specific variant，设计 Universal Inverse Adversarial Training.
+4. How much? 本文做了详尽的实验并分析了结果。
+5. What then? 无。
 
 
 

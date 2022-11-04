@@ -335,3 +335,8 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 3. How? 本文在多个detector上做实验。
 4. How much? AP下降87.86% and 85.48% in white-box and blackbox settings, respectively。
 5. What then? search patch的最优位置和形状。
+
+
+
+
+

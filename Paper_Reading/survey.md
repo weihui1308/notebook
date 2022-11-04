@@ -14,3 +14,9 @@
 ### Title: A Survey of Computer Vision Technologies In Urban and Controlled-environment Agriculture
 ### Venue: arXiv 202210
 Nanyang Technological University, Singapore. 本文关注计算机视觉在Controlled-environment agriculture (CEA) 领域的应用，旨在使计算机视觉研究者了解农业应用和农业从业者及其解决方案。首先本文总结了应用于CEA的两个计算机视觉任务：Image Recognition、Object Detection、Semantic, Instance, and Panoptic Segmentation、Uncertainty Quantification、Interpretability。然后调研了68篇技术文献和9个视觉CEA数据集。此外，本文还讨论了计算机视觉任务如何和CEA任务关联，并提供了4个潜在的两个领域的交叉研究方向。
+# 5. 20221104
+### Title: Physically Adversarial Attacks and Defenses in Computer Vision: A Survey
+### Venue: arXiv 202211
+
+
+
