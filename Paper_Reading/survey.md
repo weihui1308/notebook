@@ -17,6 +17,10 @@ Nanyang Technological University, Singapore. 本文关注计算机视觉在Contr
 # 5. 20221104
 ### Title: Physically Adversarial Attacks and Defenses in Computer Vision: A Survey
 ### Venue: arXiv 202211
-
+北航、港中文。本文是第一篇物理对抗攻击防御的综述。其中Physical Attacks从三个角度介绍：Attack Task, Attack Forms, Attack Methods。Physical Defense从三个角度介绍：Pre-processing, In-Processing, Post-Processing。共调研了90篇对抗攻防方法。
+# 6. 20221107
+### 深度学习中的后门攻击综述
+### Venue: 信息安全学报
+上交。本文介绍了后门攻击（中文），是一篇不错的了解后门攻击的论文。首先分析了后门攻击和其他攻击范式的区别, 定义了基本的攻击方法和流程, 然后对后门攻击的敌手模型、评估指标、攻击设置等方面进行了总结。接着, 将现有的攻击方法从可见性、触发器类型、标签类型以及攻击场景等多个维度进行分类, 包含了计算机视觉和自然语言处理在内的多个领域。此外, 还总结了后门攻击研究中常用的任务、数据集与深度学习模型, 并介绍了后门攻击在数据隐私、模型保护以及模型水印等方面的有益应用, 最后对未来的关键研究方向进行了展望。
 
 
