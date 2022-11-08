@@ -42,6 +42,14 @@ DNN容易被攻击的性质阻碍了其在安全关键领域的应用。为了�
 3. How? 提出inverse adversarial example，引入class-specific variant，设计 Universal Inverse Adversarial Training.
 4. How much? 本文做了详尽的实验并分析了结果。
 5. What then? 无。
+# 8. 20221108
+### Title: Scaling Adversarial Training to Large Perturbation Bounds
+### Venue: NIPS 2022
+1. Why? 当前的adversarial training方法设计面向的是perturbation within low magnitude Lp norm bounds，然而现实世界中的攻击者不会这样，存在用larger bounds的情况。
+2. What? 针对larger bounds会引起Oracle预测的label改变的问题（这与任务是想矛盾的），本文提出Oracle-Aligned Adversarial Training (OA-AT)，to improve robustness at larger epsilon bounds。
+3. How? 本文提到一些Notation和Nomenclature，写作上可以效仿。本文主要关注larger perturbation bounds下的robustness。
+4. How much? 首先取得SOTA在larger perturbation bounds下，其次在standard bounds下，也超过一些现有的方法。
+5. What then? 未来的工作基于这种设计，以更好地防御并且获得对adversarial example更好的理解
 
 
 

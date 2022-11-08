@@ -162,11 +162,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 38: 20220630
 ### Title: Harnessing Perceptual Adversarial Patches for Crowd Counting
 ### Venue: ACM CCS 2022
-1. Why? 
-2. What?
-3. How?
-4. How much? 
-5. What then?
+1. Why? 尚没有人研究Crowd Counting任务的鲁棒性。
+2. What? 采用adversarial patch对Crowd Counting Model进行攻击，并且在physical world中有效。
+3. How? 传统的patch-based attack，设计了针对该任务的loss。
+4. How much? at most +685.7 MAE and +699.5 MSE
+5. What then? 无
 # 39: 20220723
 ### Title: Physical Attack on Monocular Depth Estimation with Optimal Adversarial Patches
 ### Venue: ECCV 2022
@@ -335,7 +335,12 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 3. How? 本文在多个detector上做实验。
 4. How much? AP下降87.86% and 85.48% in white-box and blackbox settings, respectively。
 5. What then? search patch的最优位置和形状。
-
+# 76. 20221108
+### Title: Diversified Adversarial Attacks based on Conjugate Gradient Method
+### Venue: ICML 2022
+该论文中作者借鉴对此类问题有效的共轭梯度方法，并提出了一种基于共轭梯度法方法新的对抗攻击算法。其实在大学的最优化课程里，会涉及学到最速下降法，共轭梯度法 ，以及拟牛顿法。作者很好的将共轭梯度法应用到了对抗攻击中去。
+实验结果表明，对于大多数模型，论文提出的方法比现有的SOTA算法能够以更少的迭代次数找到更优的对抗样本，而且论文所提出方法的更多样化的搜索显著提高了对抗攻击的成功率。
+共轭梯度法一般用于求解线性问题，之后又被延伸用于求解最小化凸二次型问题和一般的非线性问题。共轭梯度法可以用在无约束和投影有约束问题中。
 
 
 
