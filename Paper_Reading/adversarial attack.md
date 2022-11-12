@@ -175,10 +175,10 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Threat Model-Agnostic Adversarial Defense using Diffusion Models
 ### Venue: Arxiv 202207
 1. Why? 
-2. What?
-3. How?
+2. What? 
+3. How? 
 4. How much? 
-5. What then?
+5. What then? 
 # 41: 20220728
 ### Title: Watermark Vaccine: Adversarial Attacks to Prevent Watermark Removal
 ### Venue: ECCV 2022
@@ -225,8 +225,8 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Venue: IJCNN 2020
 本文对time series classification models进行targeted, untargeted, and universal adversarial attack。实验结果显示传统的攻击方法如FGSM和BIM可以在该任务上取得很高的攻击成功率。采用的数据集是UCR time series datasets。文中有对adversarial attack如何分类进行了说明。
 # 52. 20221004
-### Title: A survey on adversarial attacks in computer vision: Taxonomy, visualization and future directions
-### Venue: Computers & Security 2022
+### Title: GhostImage: Remote Perception Attacks against Camera-based Image Classification Systems
+### Venue: USENIX 2020
 # 53. 20221004
 ### Title: Adversarial Objects Against LiDAR-Based Autonomous Driving Systems
 ### Venue: Arxiv 2019
@@ -243,8 +243,8 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Part-Based Models Improve Adversarial Robustness
 ### Venue: Arxiv 202210
 # 58. 20221008
-### Title: Digital and Physical Face Attacks: Reviewing and One Step Further 
-### Venue: Arxiv 202209
+### Title: Invisible Mask: Practical Attacks on Face Recognition with Infrared
+### Venue: Arxiv 2018 
 # 59. 20221008
 ### Title: VISUAL PRIVACY PROTECTION BASED ON TYPE-I ADVERSARIAL ATTACK
 ### Venue: Arxiv 202209
@@ -341,6 +341,43 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 该论文中作者借鉴对此类问题有效的共轭梯度方法，并提出了一种基于共轭梯度法方法新的对抗攻击算法。其实在大学的最优化课程里，会涉及学到最速下降法，共轭梯度法 ，以及拟牛顿法。作者很好的将共轭梯度法应用到了对抗攻击中去。
 实验结果表明，对于大多数模型，论文提出的方法比现有的SOTA算法能够以更少的迭代次数找到更优的对抗样本，而且论文所提出方法的更多样化的搜索显著提高了对抗攻击的成功率。
 共轭梯度法一般用于求解线性问题，之后又被延伸用于求解最小化凸二次型问题和一般的非线性问题。共轭梯度法可以用在无约束和投影有约束问题中。
+# 77. 20221110
+### Title: Poster: On the System-Level Effectiveness of Physical Object-Hiding Adversarial Attack in Autonomous Driving
+### Venue: ACM CCS 2022
+
+# 78. 20221111
+### Title: Assessing the Impact of Transformations on Physical Adversarial Attacks
+### Venue: ACM AISec 2022
+
+# 79. 20221112
+### Title: TPatch: A Triggered Physical Adversarial Patch
+### Venue: USENIX 2023
+
+# 80. 20221112
+### Title: Poltergeist: Acoustic Adversarial Machine Learning against Cameras and Computer Vision
+### Venue: IEEE Symposium on Security and Privacy (SP) 2021
+1. Why? 在自动驾驶场景中，未来提高系统的稳定性，会增加一些除视觉传感器之外的传感器，例如为了deblur的惯性传感器。
+2. What? 本文提出一个system-level vulnerability，并针对这一点进行攻击自动驾驶任务中的检测器。
+3. How? 作者利用Acoustic Waves干扰惯性传感器，使系统拍出来的照片带有blur，以此达到攻击的效果。
+4. How much? 在4个academic object detector: YOLO V3/V4/V5 and Fast R-CNN和一个ommercial detector: Apollo，进行了实验的评估。
+5. What then? 本文列举了一系列类似的攻击措施，统称为PG attacks，有一些潜在的机会。
+# 81. 20221112
+### Title: GhostImage: Remote Perception Attacks against Camera-based Image Classification Systems
+### Venue: USENIX 2020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
