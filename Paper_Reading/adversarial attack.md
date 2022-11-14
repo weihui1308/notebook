@@ -344,7 +344,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 77. 20221110
 ### Title: Poster: On the System-Level Effectiveness of Physical Object-Hiding Adversarial Attack in Autonomous Driving
 ### Venue: ACM CCS 2022
-
+1. Why? 当前在自动驾驶任务中的object-hiding adversarial attacks能否真正地完成对real-world自动驾驶系统产生影响尚不明确，原因是这些attacks往往都只关注对AI组件的攻击，而不是整个闭环系统。因此本文对这些attacks在系统层面做了comprehensive measurement study。
+2. What? 证明了当前的方法无法攻击自动驾驶系统。
+3. How? 本文选择STOP sign-hiding attack作为评估的对象，选择了两种方法，在PASS (Platform for Autonomous driving Safety and Security) platform上进行评估。
+4. How much? 结果显示，测试的两种攻击方法都不能带来任何system-level impact in AD system。
+5. What then? 对更多的方法进行the measurement study，然后指导设计出better achieve the system-level effects in the AD.
 # 78. 20221111
 ### Title: Assessing the Impact of Transformations on Physical Adversarial Attacks
 ### Venue: ACM AISec 2022
@@ -364,8 +368,10 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 81. 20221112
 ### Title: GhostImage: Remote Perception Attacks against Camera-based Image Classification Systems
 ### Venue: USENIX 2020
-
-
+# 82. 20221114
+### Title: Fooling the Eyes of Autonomous Vehicles: Robust Physical Adversarial Examples Against Traffic Sign Recognition Systems
+### Venue: arXiv 202201
+1. Why? 
 
 
 
