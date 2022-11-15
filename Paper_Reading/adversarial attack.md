@@ -365,16 +365,18 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 3. How? 作者利用Acoustic Waves干扰惯性传感器，使系统拍出来的照片带有blur，以此达到攻击的效果。
 4. How much? 在4个academic object detector: YOLO V3/V4/V5 and Fast R-CNN和一个ommercial detector: Apollo，进行了实验的评估。
 5. What then? 本文列举了一系列类似的攻击措施，统称为PG attacks，有一些潜在的机会。
-# 81. 20221112
-### Title: GhostImage: Remote Perception Attacks against Camera-based Image Classification Systems
-### Venue: USENIX 2020
-# 82. 20221114
+# 81. 20221114
 ### Title: Fooling the Eyes of Autonomous Vehicles: Robust Physical Adversarial Examples Against Traffic Sign Recognition Systems
 ### Venue: arXiv 202201
 1. Why? 
-
-
-
+# 82. 20221115
+### Title: Attacking Face Recognition with T-shirts: Database, Vulnerability Assessment and Detection
+### Venue: arXiv 202211
+文章关注人脸识别算法的安全性。作者提出一种攻击方式被称为presentation attacks，通过在T-shirt上印一张人脸图像，攻击face recognition systems。作者制作了一个database，里面包含1608个T-shirt attacks。评估结果显示一些state-of-theart attack detection mechanisms trained on popular benchmark面对这种攻击时无法保持鲁棒性。此外，作者还提出三种方法来检测这类攻击。
+# 83. 20221115
+### Title: Butterfly Effect Attack: Tiny and Seemingly Unrelated Perturbations for Object Detection
+### Venue: arXiv 202211
+本文提出了Butterfly Effect Attack，探索不相干的perturbation对与detector的影响。具体的，作者将perturbation添加到图像的左侧，然而图像右侧的object在detector检测时也会收到干扰。通过在KITTI dataset上评估了yolov5和DETR两种检测器。作者定义了三个目标函数：Small perturbation，Performance degradation和Degree of unrelated perturbation，通过genetic algorithm来优化生产扰动。
 
 
 
