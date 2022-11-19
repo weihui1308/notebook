@@ -10,11 +10,20 @@
 ### Title: ZoomNAS: Searching for Whole-body Human Pose Estimation in the Wild
 ### Keywords: Whole-body human pose estimation, neural architecture search, in-the-wild dataset
 本文提出ZoomNet单网络方法，并提出ZoomNAS神经架构搜索框架，以提高全身姿态估计的准确性和效率，还引入了第一个大规模2D人体全身数据集：COCO-WholeBody V1.0。数据集：https://github.com/jin-s13/COCO-WholeBody。
-# 3: (NIPS 2022)
+# 4: (NIPS 2022)
 ### Title: Flare7K: A Phenomenological Nighttime Flare Removal Dataset
 ### Keywords: nighttime flare removal, dataset, scattering flares, reflective flares
 第一个夜间炫光去除数据集——Flare7K。它是基于对真实世界夜间镜片炫光的观察和统计生成的。提供了5000个炫光和2000个反射炫光图像，包括25种散射炫光和10种反射炫光。开源。南洋理工大学。
-# 4. (ECCV 2022)
-### DEArt: Dataset of European Art
+# 5. (ECCV 2022)
+### Title: DEArt: Dataset of European Art
 ### Keywords: Deep Learning, Computer Vision, Cultural Heritage, Object Detection
 本文从文化遗产的角度出发，收集了一个面向object detection 和 pose classification任务的艺术绘画数据集，DEArt。论文中详细描述了Object categories、Pose categories、Image collection process、Image annotation、Dataset statistics。并且在实验部分，从Object detection和Pose classification两个任务上评估了在DEArt上的性能。
+# 6. (NIPS 2022)
+### Title: I see you: A Vehicle-Pedestrian Interaction Dataset from Traffic Surveillance Cameras
+### Keywords: vehicle-pedestrian interactions, near-accident scenarios, 
+当前的vehicle-pedestrian interaction scenarios数据集缺少near-accident scenarios，而这对于自动驾驶是至关重要的。本文发布了I see you Dataset，该数据集关注dangerous situations and scenarios，并且提供了GPS坐标下的车和行人的轨迹标记。
+
+
+
+
+

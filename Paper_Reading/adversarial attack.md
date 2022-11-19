@@ -377,11 +377,19 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Butterfly Effect Attack: Tiny and Seemingly Unrelated Perturbations for Object Detection
 ### Venue: arXiv 202211
 本文提出了Butterfly Effect Attack，探索不相干的perturbation对与detector的影响。具体的，作者将perturbation添加到图像的左侧，然而图像右侧的object在detector检测时也会收到干扰。通过在KITTI dataset上评估了yolov5和DETR两种检测器。作者定义了三个目标函数：Small perturbation，Performance degradation和Degree of unrelated perturbation，通过genetic algorithm来优化生产扰动。
+# 84: 20221118
+### Title: Towards Good Practices in Evaluating Transfer Adversarial Attacks
+### Venue: arXiv 202211
+
+# 85: 20221118
+### Title: T-SEA: Transfer-based Self-Ensemble Attack on Object Detection
+### Venue: arXiv 202211
 
 
-
-
-
+# 86: 20221119
+### Title: Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving
+### Venue: ACM CCS 2019
+本文首次研究应用的自动驾驶中LiDAR的安全性。具体地，本文的攻击目标是在AV系统的前方添加一个不存在的障碍物，以此改变其行驶决策。该方法通过控制spoofed points来欺骗深度学习模型，将攻击建模为一个优化问题。本文工作量很大，共13页。
 
 
 
