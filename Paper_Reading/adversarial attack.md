@@ -390,10 +390,10 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving
 ### Venue: ACM CCS 2019
 本文首次研究应用的自动驾驶中LiDAR的安全性。具体地，本文的攻击目标是在AV系统的前方添加一个不存在的障碍物，以此改变其行驶决策。该方法通过控制spoofed points来欺骗深度学习模型，将攻击建模为一个优化问题。本文工作量很大，共13页。
-
-
-
-
+# 87: 20221130
+### Title: Imperceptible Adversarial Attack via Invertible Neural Networks
+### Venue: AAAI 2023
+本文利用Invertible Neural Networks（可逆神经网络）生成adversarial example。作者将现有的方法总结为两类：Adding adversarial perturbations和Dropping existing information。而本文提出的方法AdvINN一方面向 benign image 中添加 class-specific 信息，另一方面丢弃original class的discriminant信息，目的是生成imperceptible and robust的对抗样本。
 
 
 
