@@ -20,10 +20,11 @@
 本文从文化遗产的角度出发，收集了一个面向object detection 和 pose classification任务的艺术绘画数据集，DEArt。论文中详细描述了Object categories、Pose categories、Image collection process、Image annotation、Dataset statistics。并且在实验部分，从Object detection和Pose classification两个任务上评估了在DEArt上的性能。
 # 6. (NIPS 2022)
 ### Title: I see you: A Vehicle-Pedestrian Interaction Dataset from Traffic Surveillance Cameras
-### Keywords: vehicle-pedestrian interactions, near-accident scenarios, 
+### Keywords: vehicle-pedestrian interactions, near-accident scenarios
 当前的vehicle-pedestrian interaction scenarios数据集缺少near-accident scenarios，而这对于自动驾驶是至关重要的。本文发布了I see you Dataset，该数据集关注dangerous situations and scenarios，并且提供了GPS坐标下的车和行人的轨迹标记。
-
-
-
+# 7. (CVPR 2019)
+### Title: SIXray: A Large-scale Security Inspection X-ray Benchmark for Prohibited Item Discovery in Overlapping Images
+### Keywords: Security Inspection, Prohibited Item Detection, X-ray Benchmark
+本文关注安全检查（安检）场景，违规物品检测任务，提出了一个大规模的X-ray图像数据集，称为SIXray，包含六个类别：Gun, Knife, Wrench, Pliers, Scissors, Hammer和Negative Example。文章分析了该任务面对的挑战，同时提出了一个基线方法。SIXray共有1,059,231张图像，其中包含Positive (8,929)和Negative (1,050,302)。
 
 
