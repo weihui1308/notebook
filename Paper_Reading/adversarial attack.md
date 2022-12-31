@@ -394,6 +394,18 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Imperceptible Adversarial Attack via Invertible Neural Networks
 ### Venue: AAAI 2023
 本文利用Invertible Neural Networks（可逆神经网络）生成adversarial example。作者将现有的方法总结为两类：Adding adversarial perturbations和Dropping existing information。而本文提出的方法AdvINN一方面向 benign image 中添加 class-specific 信息，另一方面丢弃original class的discriminant信息，目的是生成imperceptible and robust的对抗样本。
+# 88: 20221230
+### Title: Simultaneously Optimizing Perturbations and Positions for Black-box Adversarial Patch Attacks
+### Venue: TPAMI 2022
+本文攻击Face Recognition (FR) task。作者观察到当前的patch-based攻击方法要么是固定位置优化扰动，要么是固定扰动优化位置，由此得出位置和扰动对于攻击都是重要的。所以本文采用强化学习的策略来同时优化位置和扰动。本文考虑了攻击成功率和query的次数两个性能指标。本文验证了所提方法可以在物理空间实现攻击。本文方法不但可以攻击FR task，还可以扩展到traffic sign recognition task。
+
+
+
+
+
+
+
+
 
 
 
