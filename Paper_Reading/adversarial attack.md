@@ -398,6 +398,48 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Title: Simultaneously Optimizing Perturbations and Positions for Black-box Adversarial Patch Attacks
 ### Venue: TPAMI 2022
 本文攻击Face Recognition (FR) task。作者观察到当前的patch-based攻击方法要么是固定位置优化扰动，要么是固定扰动优化位置，由此得出位置和扰动对于攻击都是重要的。所以本文采用强化学习的策略来同时优化位置和扰动。本文考虑了攻击成功率和query的次数两个性能指标。本文验证了所提方法可以在物理空间实现攻击。本文方法不但可以攻击FR task，还可以扩展到traffic sign recognition task。
+# 89: 20230103
+### Title: Do Adaptive Active Attacks Pose Greater Risk Than Static Attacks?
+### Venue: WACV 2023
+# 90: 20230103
+### Title: Phantom Sponges: Exploiting Non-Maximum Suppression to Attack Deep Object Detectors
+### Venue: WACV 2023
+# 91: 20230103
+### Title: Robustness of Trajectory Prediction Models Under Map-Based Attacks
+### Venue: WACV 2023
+# 92: 20230104
+### Title: Experimental quantum adversarial learning with programmable superconducting qubits
+### Venue: Nature Computational Science 202211
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
