@@ -1,4 +1,3 @@
-$\alpha$
 <h2 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h2><table>
 <thead>
 <tr>
