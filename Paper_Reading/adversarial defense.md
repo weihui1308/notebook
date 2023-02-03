@@ -54,6 +54,9 @@ DNN容易被攻击的性质阻碍了其在安全关键领域的应用。为了�
 ### Title: Effective Backdoor Defense by Exploiting Sensitivity of Poisoned Samples
 ### Venue: NIPS 2022(Spotlight)
 基于投毒的后门攻击对由不可信来源数据所训练的模型构成了严重威胁。给定一个后门模型，作者观察到，相较于干净样本，毒性样本的特征表示对数据变换更加敏感。这启发作者设计了一个简单的敏感性度量——“针对数据变换的特征一致性(FCT)”，并基于FCT设计了一个样本区分模块，用以区分不可信训练集中的毒性样本和干净样本。此外，基于上述模块，作者提出了两种有效的后门防御方法，分别适用于不同的防御场景。第一种方法用于从头训练出一个安全模型(in-training defense)，涉及一个两阶段的安全训练模块。第二种方法用于移除后门模型中的后门(post-training defense)，包含一个交替遗忘毒性样本和重新学习干净样本的后门移除模块。在3个基准数据集和8种后门攻击上的实验结果表明了本文方法相较于SOTA防御方法的优越性能。
+# 9. 20230203
+### Title: Defending from Physically-Realizable Adversarial Attacks through Internal Over-Activation Analysis
+### Venue: AAAI 2023
 
 
 
