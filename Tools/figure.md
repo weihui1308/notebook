@@ -1,6 +1,7 @@
 ### 1. 柱状图
 ````python
-# -*- coding: utf-8 -*-
+# draw with python
+
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -31,4 +32,45 @@ plt.legend()
 #plt.show()
 plt.tight_layout()
 plt.savefig("zhuv1.pdf")
+````
+
+````Matlab
+% # draw with python
+
+x = 1:1:9;
+y = [9, 36, 84, 126, 126, 84, 36, 9, 1];
+b = bar(x,y,'FaceColor','flat');
+
+d = listfonts;
+
+xtips1 = b(1).XEndPoints;
+ytips1 = b(1).YEndPoints;
+labels1 = string(b(1).YData);
+text(xtips1,ytips1,labels1,'HorizontalAlignment','center',...
+    'VerticalAlignment','bottom','FontSize', 15);
+
+b.EdgeColor = '#FFFFFF';
+b.CData(1,:) = [161,217,155]/256;
+b.CData(2,:) = [116,196,118]/256;
+b.CData(3,:) = [65,171,93]/256;
+b.CData(4,:) = [35,139,69]/256;
+b.CData(5,:) = [35,139,69]/256;
+b.CData(6,:) = [65,171,93]/256;
+b.CData(7,:) = [116,196,118]/256;
+b.CData(8,:) = [161,217,155]/256;
+b.CData(9,:) = [199,233,192]/256;
+
+set(gca,'FontSize',15);
+
+title('Combination statistics', 'FontSize', 18)
+
+txt1 = xlabel('Grid number', 'FontSize', 18);
+% set(txt, 'Interpreter', 'latex');
+% xlabel('Grid number $n$');
+txt2 = ylabel('Number of feasible combinations', 'FontSize', 18);
+% set(txt, 'Interpreter', 'latex');
+
+ax = gcf;
+exportgraphics(ax,'output/bar1.pdf','BackgroundColor','none');
+% saveas(b, 'output/bar1.pdf')
 ````
