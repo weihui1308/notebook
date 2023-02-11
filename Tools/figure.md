@@ -1,5 +1,5 @@
 ### 1. 柱状图
-````python
+```python
 # draw with python
 
 import matplotlib.pyplot as plt
@@ -32,10 +32,10 @@ plt.legend()
 #plt.show()
 plt.tight_layout()
 plt.savefig("zhuv1.pdf")
-````
+```
 
-````Matlab
-% # draw with python
+```Matlab
+% # draw with Matlab
 
 x = 1:1:9;
 y = [9, 36, 84, 126, 126, 84, 36, 9, 1];
@@ -73,4 +73,4 @@ txt2 = ylabel('Number of feasible combinations', 'FontSize', 18);
 ax = gcf;
 exportgraphics(ax,'output/bar1.pdf','BackgroundColor','none');
 % saveas(b, 'output/bar1.pdf')
-````
+```
