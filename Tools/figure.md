@@ -1,4 +1,4 @@
-### 1. 柱状图
+## 1. 柱状图
 ```Matlab
 % # draw with Matlab
 
@@ -123,3 +123,7 @@ plt.tight_layout()
 plt.savefig("zhuv1.pdf")
 ```
 
+## 2. 折线图
+```Matlab
+
+```
