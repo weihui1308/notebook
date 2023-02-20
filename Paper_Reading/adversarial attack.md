@@ -410,6 +410,12 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 92: 20230104
 ### Title: Experimental quantum adversarial learning with programmable superconducting qubits
 ### Venue: Nature Computational Science 202211
+# 93: 20230220
+### Title: Boosting Transferability of Physical Attack against Detectors by Redistributing Separable Attentions
+### Venue: Pattern Recognition 2023
+# 94: 20230220
+### Title: TransPatch: A Transformer-based Generator for Accelerating Transferable Patch Generation in Adversarial Attacks Against Object Detection Models
+### Venue: ECCVW 2022
 
 
 
