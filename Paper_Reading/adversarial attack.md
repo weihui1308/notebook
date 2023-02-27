@@ -416,6 +416,9 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 94: 20230220
 ### Title: TransPatch: A Transformer-based Generator for Accelerating Transferable Patch Generation in Adversarial Attacks Against Object Detection Models
 ### Venue: ECCVW 2022
+# 95: 20230227
+### Title: X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection
+### Venue: USENIX Security 2023
 
 
 
