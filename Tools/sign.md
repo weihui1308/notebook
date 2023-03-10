@@ -1,5 +1,6 @@
+## 希腊字母
 <html>
-<h2 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h2><table>
+<table>
 <thead>
 <tr>
 <th>名称</th>
@@ -177,6 +178,7 @@
 <td>$\omega$</td>
 <td><code>$\omega$</code></td>
 </tr>
+</table>
 </html>
 
 ## 字体
