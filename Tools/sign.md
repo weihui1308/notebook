@@ -220,10 +220,12 @@ $\mathcal N$
 
 ## latex（markdown）中多行公式共用一个编号
 在latex中，对于多行公式，equation只有第一行有编号，而align每一行都有一个不同编号。如：  
-$$
+````
+$
 \begin{equation}
 y_1=a_1x_2+b_1 \\
 y_2=a_2x_2+b_2 \\
 y_3=a_3x_3+b_3
 \end{equation}
-$$
+$
+````
