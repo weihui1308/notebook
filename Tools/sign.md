@@ -229,3 +229,10 @@ y_3=a_3x_3+b_3
 \end{equation}
 $
 ````
+$
+\begin{equation}
+y_1=a_1x_2+b_1 \\
+y_2=a_2x_2+b_2 \\
+y_3=a_3x_3+b_3
+\end{equation}
+$
