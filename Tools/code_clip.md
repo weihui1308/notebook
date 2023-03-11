@@ -129,3 +129,22 @@ nvcc --version
 cudnn:
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ````
+
+### 8. 测试配置的环境cuda和cudnn是否可用
+````python
+import torch
+print(2.0)
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+# Assume that we are on a CUDA machine, then this should print a CUDA device:
+print(device)
+
+x = torch.Tensor([2.1])
+xx = x.cuda()
+print(xx)
+
+# CUDNN TEST
+from torch.backends import cudnn
+
+print('cudann is ' + str(cudnn.is_acceptable(xx)))
+
+````
