@@ -174,11 +174,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 40: 20220725
 ### Title: Threat Model-Agnostic Adversarial Defense using Diffusion Models
 ### Venue: Arxiv 202207
-1. Why? 
-2. What? 
-3. How? 
-4. How much? 
-5. What then? 
+本文提出了一个adversarial defense方法，该方法属于preprocessing method，即对输入model的example进行预处理。具体做法：作者使用diffusion model对input image进行重建，从而破坏或者去除image上的perturbation，从而达到防御目的。
 # 41: 20220728
 ### Title: Watermark Vaccine: Adversarial Attacks to Prevent Watermark Removal
 ### Venue: ECCV 2022
