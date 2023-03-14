@@ -376,7 +376,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 84: 20221118
 ### Title: Towards Good Practices in Evaluating Transfer Adversarial Attacks
 ### Venue: arXiv 202211
-
+本文关注在transfer adversarial attack研究中，不同攻击方法之间的对比非常difficult，并且新的攻击方法提出时，和旧的攻击方法对比的设置常常是unsystematic并且unfair。第二，当前transfer adversarial attack方法在评估时，忽略了stealthiness的对比。因此，本文提出了一个Good Practices来解决这些限制。本文评估了23中transfer attack方法在9种defense方法的表现，基于这些，作者分析了结果，提出了新的findings。
 # 85: 20221118
 ### Title: T-SEA: Transfer-based Self-Ensemble Attack on Object Detection
 ### Venue: arXiv 202211
