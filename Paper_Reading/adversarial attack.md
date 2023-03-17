@@ -182,12 +182,11 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 42: 20220801
 ### Title: Adversarial Zoom Lens：A Novel Physical-World Attack to DNNs
 ### Venue: Arxiv 202206
-
+本文提出了一种新的攻击，AdvZL，这种攻击无需任何perturbation，只通过zoom in和out即可实现对DNN-based classifer的攻击。作者提出了一个基于Imagenet的数据集，Imagenet-ZOOMIN，这个数据集将Imagenet中的图像进行了不同尺度的zoom in。通过在数字和物理空间上的实验，验证了这种攻击方式的有效性。该方法从一定程度上展示出了DNN在面对图像尺度缩放时的局限性。
 # 43: 20220923
 ### Title: GAMA: Generative Adversarial Multi-Object Scene Attacks
 ### Venue: NeurIPS 2022
-
-
+本文将vision-language model CLIP引入了attack方法的pipeline中，CLIP作为一个tool，作者利用其语义建模能力，将生成的adversarial example通过一个代理模型，转换为text输入到CLIP的text encoder中，然后将original image输入到image encoder中，通过最小化对比学习中的similarity，达到攻击的目的。本文关注的是Multi-Object Scene，这也是和之前关注single-object scene的方法的区别之一。
 # 44: 20220923
 ### Title: Adversarial Color Projection: A Projector-Based Physical Attack to DNNs
 ### Venue: Arxiv 202209
