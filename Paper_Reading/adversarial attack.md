@@ -190,7 +190,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 44: 20220923
 ### Title: Adversarial Color Projection: A Projector-Based Physical Attack to DNNs
 ### Venue: Arxiv 202209
-
+由于当前多数的physical attack都是基于sticker的，他们很难做到隐蔽，因此作者提出一种light-based attack，采用projector-based方法，改变victim object表面的light，以此来发动攻击。本文方法命名为AdvCP。
 # 45: 20220924
 ### Title: Moiré Attack (MA): A New Potential Risk of Screen Photos
 ### Venue: NIPS 2021
