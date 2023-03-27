@@ -419,7 +419,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 ### Venue: arXiv 202303
 
 # 97: 20230313
-### Title: Adversarial attacks and defenses for visual signals
+### Title: AdvT-SEAersarial attacks and defenses for visual signals
 ### Venue: Nanyang Technological University
 Nanyang Technological University，博士学位论文。地址：https://dr.ntu.edu.sg/handle/10356/164772。 本文关注四个DNN-based tasks：natural image classification task，medical image classification task, SOD, Adversarial defense。
 # 98: 20230314
