@@ -428,7 +428,10 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 99: 20230314
 ### Title: Adversarial Attack with Raindrops
 ### Venue: arXiv 202303
-
+# 100: 20230328
+### Title: Anti-DreamBooth: Protecting users from personalized text-to-image synthesis
+### Venue: arXiv 202303
+文本到图像扩散模型是一场革命，使得任何人，即使没有设计技能，也能从简单的文本输入中创建逼真的图像。通过强大的个性化工具如DreamBooth，它们可以生成特定人物的图像，只需学习他/她的几张参考图像。然而，当滥用时，这样一个强大而便利的工具可以制造虚假新闻或针对任何个人受害者的令人不安的内容，从而造成严重的负面社会影响。在本文中，作者探讨了一种名为Anti-DreamBooth的防御系统，以对抗DreamBooth的恶意使用。该系统旨在在发布每个用户的图像之前对其添加微小的噪声扰动，以破坏对这些扰动图像训练的任何DreamBooth模型的生成质量。本文研究了广泛的扰动优化算法，并在两个面部数据集上对各种文本到图像模型版本进行了广泛的评估。尽管DreamBooth和基于扩散的文本到图像模型的公式化很复杂，该方法有效地保护用户免受这些模型的恶意使用。即使在训练和测试之间存在模型或提示/术语不匹配等不利条件下，它们的有效性也能经受住考验。
 
 
 
