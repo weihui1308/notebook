@@ -59,8 +59,58 @@ DNN容易被攻击的性质阻碍了其在安全关键领域的应用。为了�
 ### Venue: AAAI 2023
 
 # 10. 20230323
-### Title:DEFENDING AGAINST PHYSICALLY REALIZABLE ATTACKS ON IMAGE CLASSIFICATION
+### Title: DEFENDING AGAINST PHYSICALLY REALIZABLE ATTACKS ON IMAGE CLASSIFICATION
 ### Venue: ICLR 2020
+
+# 11. 20230329
+### Title: Defending Against Adversarial Attacks via Neural Dynamic System
+### Venue: NIPS 2022
+
+# 12. 20230329
+### Title: Toward Robust Spiking Neural Network Against Adversarial Perturbation
+### Venue: NIPS 2022
+
+# 13. 20230329
+### Title: Are AlphaZero-like Agents Robust to Adversarial Perturbations?
+### Venue: NIPS 2022
+
+# 14. 20230329
+### Title: Friendly Noise against Adversarial Noise: A Powerful Defense against Data Poisoning Attack
+### Venue: NIPS 2022
+
+# 14. 20230329
+### Title: DISCO: Adversarial Defense with Local Implicit Functions
+### Venue: NIPS 2022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

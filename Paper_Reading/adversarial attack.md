@@ -437,6 +437,90 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Venue: Applied Cryptography and Network Security Workshops 2022
 
 
+# 99: 20230314
+### Title: Decision-based Black-box Attack Against Vision Transformers via Patch-wise Adversarial Removal
+### Venue: NIPS 2022
+
+# 100: 20230314
+### Title: Adversarial Attack on Attackers: Post-Process to Mitigate Black-Box Score-Based Query Attacks
+### Venue: NIPS 2022
+
+# 101: 20230314
+### Title: Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models
+### Venue: NIPS 2022
+
+# 102: 20230314
+### Title: On the Robustness of Deep Clustering Models: Adversarial Attacks and Defenses
+### Venue: NIPS 2022
+
+# 103: 20230314
+### Title: Indicators of Attack Failure: Debugging and Improving Optimization of Adversarial Examples
+### Venue: NIPS 2022
+
+# 104: 20230314
+### Title: Boosting the Transferability of Adversarial Attacks with Reverse Adversarial Perturbation
+### Venue: NIPS 2022
+
+# 105: 20230314
+### Title: VoiceBlock: Privacy through Real-Time Adversarial Attacks with Audio-to-Audio Models
+### Venue: NIPS 2022
+
+# 106: 20230314
+### Title: Adv-Attribute: Inconspicuous and Transferable Adversarial Attack on Face Recognition
+### Venue: NIPS 2022
+
+# 107: 20230314
+### Title: ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints 
+### Venue: NIPS 2022
+
+# 108: 20230314
+### Title: Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop
+### Venue: NIPS 2022
+
+# 109: 20230314
+### Title: Blackbox Attacks via Surrogate Ensemble Search
+### Venue: NIPS 2022
+
+# 110: 20230314
+### Title: Natural Color Fool: Towards Boosting Black-box Unrestricted Attacks
+### Venue: NIPS 2022
+
+# 111: 20230314
+### Title: Towards Lightweight Black-Box Attack Against Deep Neural Networks
+### Venue: NIPS 2022
+
+# 112: 20230314
+### Title: Learning to Attack Federated Learning: A Model-based Reinforcement Learning Attack Framework
+### Venue: NIPS 2022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

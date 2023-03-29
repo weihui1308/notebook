@@ -25,8 +25,17 @@
 ### Title: Blind Backdoors in Deep Learning Models
 ### Venue: USENIX Security 2021
 
+# 7. 20230329
+### Title: Randomized Channel Shuffling: Minimal-Overhead Backdoor Attack Detection without Clean Datasets
+### Venue: NIPS 2022
 
+# 8. 20230329
+### Title: BadPrompt: Backdoor Attacks on Continuous Prompts 
+### Venue: NIPS 2022
 
+# 9. 20230329
+### Title: Finding Naturally Occurring Physical Backdoors in Image Datasets
+### Venue: NIPS 2022
 
 
 
