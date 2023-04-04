@@ -432,69 +432,75 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Anti-DreamBooth: Protecting users from personalized text-to-image synthesis
 ### Venue: arXiv 202303
 文本到图像扩散模型是一场革命，使得任何人，即使没有设计技能，也能从简单的文本输入中创建逼真的图像。通过强大的个性化工具如DreamBooth，它们可以生成特定人物的图像，只需学习他/她的几张参考图像。然而，当滥用时，这样一个强大而便利的工具可以制造虚假新闻或针对任何个人受害者的令人不安的内容，从而造成严重的负面社会影响。在本文中，作者探讨了一种名为Anti-DreamBooth的防御系统，以对抗DreamBooth的恶意使用。该系统旨在在发布每个用户的图像之前对其添加微小的噪声扰动，以破坏对这些扰动图像训练的任何DreamBooth模型的生成质量。本文研究了广泛的扰动优化算法，并在两个面部数据集上对各种文本到图像模型版本进行了广泛的评估。尽管DreamBooth和基于扩散的文本到图像模型的公式化很复杂，该方法有效地保护用户免受这些模型的恶意使用。即使在训练和测试之间存在模型或提示/术语不匹配等不利条件下，它们的有效性也能经受住考验。
-# 98: 20230314
+# 98: 20230329
 ### Title: Universal Physical Adversarial Attack via Background Image
 ### Venue: Applied Cryptography and Network Security Workshops 2022
 
 
-# 99: 20230314
+# 99: 20230329
 ### Title: Decision-based Black-box Attack Against Vision Transformers via Patch-wise Adversarial Removal
 ### Venue: NIPS 2022
 
-# 100: 20230314
+# 100: 20230329
 ### Title: Adversarial Attack on Attackers: Post-Process to Mitigate Black-Box Score-Based Query Attacks
 ### Venue: NIPS 2022
 
-# 101: 20230314
+# 101: 20230329
 ### Title: Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models
 ### Venue: NIPS 2022
 
-# 102: 20230314
+# 102: 20230329
 ### Title: On the Robustness of Deep Clustering Models: Adversarial Attacks and Defenses
 ### Venue: NIPS 2022
 
-# 103: 20230314
+# 103: 20230329
 ### Title: Indicators of Attack Failure: Debugging and Improving Optimization of Adversarial Examples
 ### Venue: NIPS 2022
 
-# 104: 20230314
+# 104: 20230329
 ### Title: Boosting the Transferability of Adversarial Attacks with Reverse Adversarial Perturbation
 ### Venue: NIPS 2022
 
-# 105: 20230314
+# 105: 20230329
 ### Title: VoiceBlock: Privacy through Real-Time Adversarial Attacks with Audio-to-Audio Models
 ### Venue: NIPS 2022
 
-# 106: 20230314
+# 106: 20230329
 ### Title: Adv-Attribute: Inconspicuous and Transferable Adversarial Attack on Face Recognition
 ### Venue: NIPS 2022
 
-# 107: 20230314
+# 107: 20230329
 ### Title: ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints 
 ### Venue: NIPS 2022
 
-# 108: 20230314
+# 108: 20230329
 ### Title: Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop
 ### Venue: NIPS 2022
 
-# 109: 20230314
+# 109: 20230329
 ### Title: Blackbox Attacks via Surrogate Ensemble Search
 ### Venue: NIPS 2022
 
-# 110: 20230314
+# 110: 20230329
 ### Title: Natural Color Fool: Towards Boosting Black-box Unrestricted Attacks
 ### Venue: NIPS 2022
 
-# 111: 20230314
+# 111: 20230329
 ### Title: Towards Lightweight Black-Box Attack Against Deep Neural Networks
 ### Venue: NIPS 2022
 
-# 112: 20230314
+# 112: 20230329
 ### Title: Learning to Attack Federated Learning: A Model-based Reinforcement Learning Attack Framework
 ### Venue: NIPS 2022
 
+# 113: 20230404
+### Title: Semantic Image Attack for Visual Model Diagnosis
+### Venue: arXiv 202303
 
 
+# 114: 20230404
+### Title: CONTROLLABLE INVERSION OF BLACK-BOX FACE-RECOGNITION MODELS VIA DIFFUSION
+### Venue: arXiv 202303
 
 
 
