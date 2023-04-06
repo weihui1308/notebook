@@ -503,9 +503,10 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Venue: arXiv 202303
 
 
-
-
-
+# 115: 20230406
+### Title: Physically Adversarial Infrared Patches with Learnable Shapes and Locations
+### Venue: CVPR 2023
+本文提出了一种对Infrared Person Detector进行攻击的方式。该方法采用一种Infrared Patch，制作材料为气凝胶。如title中提到的，本文方法优化的是Infrared Patch的shape和location两个属性。在实验方面，作者不仅在person detector上进行了测试，还在vehicle detection任务上进行了测试，这个实验是为了凸显方法的generalization。
 
 
 
