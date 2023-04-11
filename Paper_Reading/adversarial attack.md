@@ -492,7 +492,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 112: 20230329
 ### Title: Learning to Attack Federated Learning: A Model-based Reinforcement Learning Attack Framework
 ### Venue: NIPS 2022
-
+作者提出一种基于Reinforcement Learning的攻击框架，实现untargeted poisoning attacks。本文工作显示了FL系统开发适应性防御的重要性。写作清晰，相关文献总结的也不错，代码开源。
 # 113: 20230404
 ### Title: Semantic Image Attack for Visual Model Diagnosis
 ### Venue: arXiv 202303
