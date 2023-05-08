@@ -206,7 +206,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 48: 20220928
 ### Title: Suppress with a Patch: Revisiting Universal Adversarial Patch Attacks against Object Detection
 ### Venue: Arxiv 202209
-
+本文用adversarial patch来攻击object detection model。title中suppress一词的含义是镇压detector使其检测不到object。具体地，本文实现了一种位置无关的patch，评估了三种可能的patch粘贴方式：a fixed position, dynamic window approach, and random patch placement。本文工作和现有工作的区别：本文利用一个patch来镇压所有object。
 # 49: 20221001
 ### Title: A Survey on Physical Adversarial Attack in Computer Vision
 ### Venue: Arxiv 202209
