@@ -111,7 +111,15 @@
     # 使用会话名称
     $ tmux attach -t <session-name>
     ````
-3. 杀死会话
+3. 退出会话
+    ````
+    # 退出会话
+    键盘: ctrl + b, 然后键盘: d
+
+    # 退出并杀死会话
+    $ exit
+    ````
+4. 杀死会话
     ````
     # 使用会话编号
     $ tmux kill-session -t 0
@@ -119,7 +127,7 @@
     # 使用会话名称
     $ tmux kill-session -t <session-name>
     ````
-4. 新建会话
+5. 新建会话
     ````
     tmux new -s <session-name>
     ````
