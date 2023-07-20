@@ -516,11 +516,16 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Can You Spot the Chameleon? Adversarially Camouflaging Images from Co-Salient Object Detection
 ### Venue: CVPR 2022
 
+# 118. 20230720
+### Title: Shape Matters: Deformable Patch Attack
+### Venue: ECCV 2022
 
 
+# 119. 20230720
+### Title: Unified Adversarial Patch for Cross-modal Attacks in the Physical World
+### Venue: ICCV 2023
 
-
-
+# 120. 
 
 
 
