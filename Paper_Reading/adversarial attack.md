@@ -525,8 +525,13 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Unified Adversarial Patch for Cross-modal Attacks in the Physical World
 ### Venue: ICCV 2023
 
-# 120. 
+# 120. 20230720
+### Title: CAPatch: Physical Adversarial Patch against Image Captioning Systems
+### Venue: USENIX Security 2023
 
+# 121. 20230722
+### Title: Diffusion to Confusion: Naturalistic Adversarial Patch Generation Based on Diffusion Model for Object Detector
+### Venue: arXiv 202307
 
 
 
