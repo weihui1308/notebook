@@ -541,9 +541,9 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Why Don’t You Clean Your Glasses? Perception Attacks with Dynamic Optical Perturbations
 ### Venue: arXiv 202307
 
-
-
-
+# 124. 20230811
+### Title: A reading survey on adversarial machine learning: Adversarial attacks and their understanding
+### Venue: arXiv 202308
 
 
 
