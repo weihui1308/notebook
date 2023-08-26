@@ -545,8 +545,17 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: A reading survey on adversarial machine learning: Adversarial attacks and their understanding
 ### Venue: arXiv 202308
 
+# 125. 20230818
+### Title: AdvCLIP: Downstream-agnostic Adversarial Examples in Multimodal Contrastive Learning
+### Venue: arXiv 202308
 
+# 126. 20230818
+### Title: ACTIVE: Towards Highly Transferable 3D Physical Camouflage for Universal and Robust Vehicle Evasion
+### Venue: arXiv 202308
 
+# 127. 20230826
+### Title: Does Physical Adversarial Example Really Matter to Autonomous Driving? Towards System-Level Effect of Adversarial Object Evasion Attack
+### Venue: ICCV 2023
 
 
 
