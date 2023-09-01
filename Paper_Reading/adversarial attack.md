@@ -557,6 +557,9 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Does Physical Adversarial Example Really Matter to Autonomous Driving? Towards System-Level Effect of Adversarial Object Evasion Attack
 ### Venue: ICCV 2023
 
+# 128. 20230901
+### Title: REAP: A Large-Scale Realistic Adversarial Patch Benchmark
+### Venue: ICCV 2023
 
 
 
