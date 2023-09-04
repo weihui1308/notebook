@@ -561,14 +561,17 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: REAP: A Large-Scale Realistic Adversarial Patch Benchmark
 ### Venue: ICCV 2023
 
+# 129. 20230904
+### Title: Transferable Black-Box Attack against Face Recognition with Spatial Mutable Adversarial Patch
+### Venue: TIFS 2023
 
+# 130. 20230904
+### Title: Adversarial Attacks on Foundational Vision Models
+### Venue: arXiv 202309
 
-
-
-
-
-
-
+# 131. 20230904
+### Title: IMPERCEPTIBLE ADVERSARIAL ATTACK ON DEEP NEURAL NETWORKS FROM IMAGE BOUNDARY
+### Venue: arXiv 202309
 
 
 
