@@ -573,6 +573,9 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: IMPERCEPTIBLE ADVERSARIAL ATTACK ON DEEP NEURAL NETWORKS FROM IMAGE BOUNDARY
 ### Venue: arXiv 202309
 
+# 132. 20230911
+### Title: Adv3D: Generating 3D Adversarial Examples in Driving Scenarios with NeRF
+### Venue: arXiv 202309
 
 
 
