@@ -577,8 +577,9 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Adv3D: Generating 3D Adversarial Examples in Driving Scenarios with NeRF
 ### Venue: arXiv 202309
 
-
-
+# 133. 20230921
+### Title: Are Vision Transformers Robust to Patch Perturbations?
+### Venue: ECCV 2022
 
 
 
