@@ -515,7 +515,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 117. 20230603
 ### Title: Can You Spot the Chameleon? Adversarially Camouflaging Images from Co-Salient Object Detection
 ### Venue: CVPR 2022
-
+本片工作首次提出攻击CoSOD模型，这是一个新的任务。作者提出联合对抗性曝光和噪声攻击，根据新设计的高特征级对比度敏感损失函数联合和局部调整图像的曝光和附加扰动。该任务对正确保护目前在互联网上共享的大量个人照片有很大的实际好处。此外，有可能被用作评估CoSOD方法稳健性的指标。
 # 118. 20230720
 ### Title: Shape Matters: Deformable Patch Attack
 ### Venue: ECCV 2022
@@ -560,7 +560,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 128. 20230901
 ### Title: REAP: A Large-Scale Realistic Adversarial Patch Benchmark
 ### Venue: ICCV 2023
-
+本文的motivation是：当前的adversarial patch attack的评估太难了，主要原因是如果在real world采集数据集进行评估，太expensive，如果在digital domain做simulation，许多physical world的因素get不到，因此作者提出了一个benchmark dataset来评估patch-based attack方法。本文工作针对的是traffic sign detection任务，提出了一个patch rendering的方法，主要包括Geometric Transformation和Relighting Transformation。通过在benchmark dataset上评估RP2 attack和DPatch attack，作者得出结论：当前的攻击方法有效性是不如预期的；在合成的数据集上作评估不能反映real world的情况；光照和patch的位置对攻击效果影响最大。
 # 129. 20230904
 ### Title: Transferable Black-Box Attack against Face Recognition with Spatial Mutable Adversarial Patch
 ### Venue: TIFS 2023
@@ -581,6 +581,9 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Are Vision Transformers Robust to Patch Perturbations?
 ### Venue: ECCV 2022
 
+# 133. 20230925
+### Title: PRAT: PRofiling Adversarial aTtacks
+### Venue: arXiv 202309
 
 
 
