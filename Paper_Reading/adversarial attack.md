@@ -581,15 +581,22 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Are Vision Transformers Robust to Patch Perturbations?
 ### Venue: ECCV 2022
 
-# 133. 20230925
+# 134. 20230925
 ### Title: PRAT: PRofiling Adversarial aTtacks
 ### Venue: arXiv 202309
 
+# 135. 20231008
+### Title: F&F Attack: Adversarial Attack against Multiple Object Trackers by Inducing False Negatives and False Positives
+### Venue: ICCV 2023
+
+# 136 20231008
+### Title: Adversarial Examples with Specular Highlights
+### Venue: ICCV 2023
 
 
-
-
-
+# 137 20231008
+### Title: Targeted Adversarial Attacks on Generalizable Neural Radiance Fields
+### Venue: ICCV 2023
 
 
 
