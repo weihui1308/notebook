@@ -599,8 +599,9 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Venue: ICCV 2023
 
 
-
-
+# 138 20231008
+### Title: Benchmarking Image Classifiers for Physical Out-of-Distribution Examples Detection
+### Venue: ICCV 2023 workshops
 
 
 
