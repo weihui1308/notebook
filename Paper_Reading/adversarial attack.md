@@ -589,27 +589,29 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: F&F Attack: Adversarial Attack against Multiple Object Trackers by Inducing False Negatives and False Positives
 ### Venue: ICCV 2023
 
-# 136 20231008
+# 136. 20231008
 ### Title: Adversarial Examples with Specular Highlights
 ### Venue: ICCV 2023
 
 
-# 137 20231008
+# 137. 20231008
 ### Title: Targeted Adversarial Attacks on Generalizable Neural Radiance Fields
 ### Venue: ICCV 2023
 
 
-# 138 20231008
+# 138. 20231008
 ### Title: Benchmarking Image Classifiers for Physical Out-of-Distribution Examples Detection
 ### Venue: ICCV 2023 workshops
 
-# 139 20231017
+# 139. 20231017
 ### Title: Transferable Black-Box Attack Against Face Recognition With Spatial Mutable Adversarial Patch
 ### Venue: TIFS 2023
 
+# 140. 20231023
+### Title: On Adversarial Robustness of Trajectory Prediction for Autonomous Vehicles
+### Venue: CVPR 2022
 
-
-
-
-
+# 141. 20231023
+### Title: AdvDO: Realistic Adversarial Attacks for Trajectory Prediction
+### Venue: ECCV 2022
 
