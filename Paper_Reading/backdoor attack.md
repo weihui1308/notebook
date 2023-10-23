@@ -35,6 +35,10 @@
 ### Venue: NIPS 2022
 
 
+# 10. 20231023
+### Title: MM-BD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic
+### Venue: 2024 IEEE SP
+
 
 
 
