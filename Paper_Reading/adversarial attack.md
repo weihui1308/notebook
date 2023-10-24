@@ -547,7 +547,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 
 # 125. 20230818
 ### Title: AdvCLIP: Downstream-agnostic Adversarial Examples in Multimodal Contrastive Learning
-### Venue: arXiv 202308
+### Venue: ACM MM 2023
 
 # 126. 20230818
 ### Title: ACTIVE: Towards Highly Transferable 3D Physical Camouflage for Universal and Robust Vehicle Evasion
@@ -615,3 +615,6 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: AdvDO: Realistic Adversarial Attacks for Trajectory Prediction
 ### Venue: ECCV 2022
 
+# 142. 20231024
+### Title: Downstream-agnostic Adversarial Examples
+### Venue: ICCV 2023
