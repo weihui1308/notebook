@@ -13,3 +13,6 @@
 
 ## Paper: VoP: Text-Video Co-operative Prompt Tuning for Cross-Modal Retrieval (CVPR 2023)
 <img src="https://github.com/weihui1308/notebook/blob/main/assets/20231019094728.png?raw=true">
+
+## Paper: Downstream-agnostic Adversarial Examples (ICCV 2023)
+<img src="https://github.com/weihui1308/notebook/blob/main/assets/20231024214232.png?raw=true" width=50%>
