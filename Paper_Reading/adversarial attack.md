@@ -618,3 +618,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 142. 20231024
 ### Title: Downstream-agnostic Adversarial Examples
 ### Venue: ICCV 2023
+
+# 143. 20231026
+### Title: AdvDiffuser: Natural Adversarial Example Synthesis with Diffusion Models
+### Venue: ICCV 2023
