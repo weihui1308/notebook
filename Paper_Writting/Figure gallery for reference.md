@@ -18,4 +18,4 @@
 <img src="https://github.com/weihui1308/notebook/blob/main/assets/paperWritting/20231024214232.png?raw=true" width=50%>
 
 ## Paper: Deep learning-based robust positioning for all-weather autonomous driving (NMI 2022)
-<img src="https://github.com/weihui1308/notebook/blob/main/assets/paperWritting/20231027160155.png?raw=true" width=50%>
+<img src="https://github.com/weihui1308/notebook/blob/main/assets/paperWritting/20231027160155.png?raw=true" width=70%>
