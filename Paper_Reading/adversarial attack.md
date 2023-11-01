@@ -622,3 +622,17 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 143. 20231026
 ### Title: AdvDiffuser: Natural Adversarial Example Synthesis with Diffusion Models
 ### Venue: ICCV 2023
+
+# 144. 20231101
+### Title: Adversarial Attack for Robust Watermark Protection Against Inpainting-based and Blind Watermark Removers
+### Venue: ACM MM 2023
+
+# 145. 20231101
+### Title: Uncertainty-weighted Loss Functions for Improved Adversarial Attacks on Semantic Segmentation
+### Venue: arXiv 202310
+
+# 146. 20231101
+### Title: Detection Defenses: An Empty Promise against Adversarial Patch Attacks on Optical Flow
+### Venue: arXiv 202310
+
+
