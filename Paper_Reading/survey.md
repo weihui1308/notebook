@@ -38,3 +38,6 @@ Nanyang Technological University, Singapore. 本文关注计算机视觉在Contr
 # 11. 20231101
 ### Title: A Survey on Transferability of Adversarial Examples across Deep Neural Networks
 ### Venue: Arxiv 202310
+# 11. 20231111
+### Title: Image-Based Virtual Try-On: A Survey
+### Venue: TPAMI 2023
