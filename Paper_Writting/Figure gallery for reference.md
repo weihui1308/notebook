@@ -19,3 +19,7 @@
 
 ## Paper: Deep learning-based robust positioning for all-weather autonomous driving (NMI 2022)
 <img src="https://github.com/weihui1308/notebook/blob/main/assets/paperWritting/20231027160155.png?raw=true" width=70%>
+
+## Paper: Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks (NMI 2023)
+<img src="https://github.com/weihui1308/notebook/blob/main/assets/paperWritting/20231113170315.png?raw=true" width=50%>
+
