@@ -638,3 +638,11 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 147. 20231124
 ### Title: AdvGen: Physical Adversarial Attack on Face Presentation Attack Detection Systems
 ### Venue: arXiv 202311
+
+# 148. 20231201
+### Title: Adversarial Doodles: Interpretable and Human-drawable Attacks Provide Describable Insights
+### Venue: arXiv 202311
+
+# 149. 20231201
+### Title: Instruct2Attack: Language-Guided Semantic Adversarial Attacks
+### Venue: arXiv 202311
