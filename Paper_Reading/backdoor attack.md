@@ -39,9 +39,9 @@
 ### Title: MM-BD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic
 ### Venue: 2024 IEEE SP
 
-
-
-
+# 11. 20231207
+### Title: Synthesizing Physical Backdoor Datasets: An Automated Framework Leveraging Deep Generative Models
+### Venue: ArXiv 202312
 
 
 
