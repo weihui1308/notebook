@@ -646,3 +646,11 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 149. 20231201
 ### Title: Instruct2Attack: Language-Guided Semantic Adversarial Attacks
 ### Venue: arXiv 202311
+
+# 150. 20231213
+### Title: A Comprehensive Study of the Robustness for LiDAR-Based 3D Object Detectors Against Adversarial Attacks
+### Venue: IJCV 2023
+
+# 151. 20231213
+### Title: TextCheater: A Query-Efficient Textual Adversarial Attack in the Hard-Label Setting
+### Venue: IEEE Transactions on Dependable and Secure Computing 2023
