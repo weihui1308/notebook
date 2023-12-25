@@ -654,3 +654,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 151. 20231213
 ### Title: TextCheater: A Query-Efficient Textual Adversarial Attack in the Hard-Label Setting
 ### Venue: IEEE Transactions on Dependable and Secure Computing 2023
+
+# 152. 20231225
+### Title: Mutual-modality Adversarial Attack with Semantic Perturbation
+### Venue: AAAI 2024
