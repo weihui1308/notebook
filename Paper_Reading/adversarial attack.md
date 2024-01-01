@@ -658,3 +658,13 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 152. 20231225
 ### Title: Mutual-modality Adversarial Attack with Semantic Perturbation
 ### Venue: AAAI 2024
+
+# 153. 20231226
+### Title: AdvART: Adversarial Art for Camouflaged Object Detection Attacks
+### Venue: arXiv 202303
+
+# 154. 20240101
+### Title: Infrared Adversarial Patches with Learnable Shapes and Locations in the Physical World
+### Venue: IJCV 202312
+
+
