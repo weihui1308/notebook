@@ -667,4 +667,10 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Infrared Adversarial Patches with Learnable Shapes and Locations in the Physical World
 ### Venue: IJCV 202312
 
+# 155. 20240103
+### Title: Adaptive Cross-Modal Transferable Adversarial Attacks from Images to Videos
+### Venue: TPAMI 202312
 
+# 156. 20240103
+### Title: BlackboxBench: A Comprehensive Benchmark of Black-box Adversarial Attacks
+### Venue: arXiv 202401
