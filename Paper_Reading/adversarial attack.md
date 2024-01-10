@@ -674,3 +674,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 156. 20240103
 ### Title: BlackboxBench: A Comprehensive Benchmark of Black-box Adversarial Attacks
 ### Venue: arXiv 202401
+
+# 157. 20240110
+### Title: FastTextDodger: Decision-based Adversarial Attack against Black-box NLP Models with Extremely High Efficiency
+### Venue: TIFS 202401
