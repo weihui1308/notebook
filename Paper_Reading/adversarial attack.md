@@ -678,3 +678,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 157. 20240110
 ### Title: FastTextDodger: Decision-based Adversarial Attack against Black-box NLP Models with Extremely High Efficiency
 ### Venue: TIFS 202401
+
+# 158: 20240123
+### Title: Hiding from infrared detectors in real world with adversarial clothes
+### Venue: Applied Intelligence 2023
