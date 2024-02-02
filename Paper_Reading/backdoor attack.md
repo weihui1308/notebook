@@ -21,7 +21,7 @@
 # 6. 20230329
 ### Title: Blind Backdoors in Deep Learning Models
 ### Venue: USENIX Security 2021
-
+本文提出一种blind backdoor，不修改input，也不需要对model进行query。这种backdoor attacks通过code poisoning来实现。该方法通过向code注入攻击的代码，在不影响model性能的同时，可以操控model进行特殊的预测，例如使model从计算照片中的人脸数量变为隐蔽地识别特定的个人。代码开源。
 # 7. 20230329
 ### Title: Randomized Channel Shuffling: Minimal-Overhead Backdoor Attack Detection without Clean Datasets
 ### Venue: NIPS 2022
