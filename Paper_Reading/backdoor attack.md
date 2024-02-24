@@ -5,8 +5,7 @@
 # 2. 20221001
 ### Title: Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection
 ### Venue: NIPS 2022
-
-
+本文探索了如何保护（开源）数据集的版权。作者发现，现有的数据集所有权验证可能会带来新的严重风险，这是由于现有数据集水印所用的后门攻击。基于这一观察，作者探索了有毒标签和干净标签设置下的非目标后门水印（UBW）范例，其异常模型行为并非确定性的。作者还研究了如何利用UBW进行无害和隐蔽的数据集所有权验证。在基准数据集上的实验验证了有效性及其对后门防御的抵御能力。
 # 3. 20221018
 ### Title: Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class
 ### Venue: NIPS 2022
