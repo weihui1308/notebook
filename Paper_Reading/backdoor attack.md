@@ -14,7 +14,7 @@
 # 4. 20230327
 ### Title: Influencer Backdoor Attack on Semantic Segmentation
 ### Venue: ArXiv 202303
-
+本文研究了语义分割任务上的后门攻击，是首次这样做的工作。作者展示了，当图像中加入trigger后，语义分割模型就无法正确识别到车辆，而其它类别的分割结果还在正常的。
 
 
 # 6. 20230329
