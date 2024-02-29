@@ -666,7 +666,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 154. 20240101
 ### Title: Infrared Adversarial Patches with Learnable Shapes and Locations in the Physical World
 ### Venue: IJCV 202312
-
+本文利用一种隔热材料（thermal insulation materials）构造adversarial patch，修改目标表面的热量分布，实现对热红外模态下person detector的物理对抗攻击。为了提供攻击性，作者提出一种聚合正则化（aggregation regularization），引导同时优化patch的形状和位置。实验显示可以实现90%以上的ASR。通过优化，作者得到一种形状不规则的adversarial patch，然后用气凝胶材料在real world实现。作者声称这种方案相较于以前的方法，是高效的，易于实现。
 # 155. 20240103
 ### Title: Adaptive Cross-Modal Transferable Adversarial Attacks from Images to Videos
 ### Venue: TPAMI 202312
