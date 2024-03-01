@@ -687,3 +687,11 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Title: Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition
 ### Venue: CVPR 2023
 本文提出用3D的面罩攻击人脸识别模型。效果很惊艳：成果地攻击了3个识别的APIs，4个反欺骗APIs，2个手机和2个自动权限管理系统。作者提出现有的攻击方法要么易于检测，要么不够有效，因此他们提出AT3D，用3D打印制作一个面罩，同时进行攻击和逃避反欺骗技术。由于直接在mesh空间进行优化容易陷入局部最优值，作者提出在low-dimensional系数空间进行优化，降低了优化复杂度，提升了效率，并且具有很好的black-box迁移性。
+
+# 160. 20240103
+### Title: DAP: A Dynamic Adversarial Patch for Evading Person Detectors
+### Venue: arXiv 202311
+
+# 161. 20240103
+### Title: Seeing isn’t Believing: Towards More Robust Adversarial Attack Against Real World Object Detectors
+### Venue: CCS 2019
