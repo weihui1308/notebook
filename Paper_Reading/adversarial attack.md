@@ -201,7 +201,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 本文提出一个light-based physical attack方法在夜间攻击sign classifier: adversarial catoptric light (AdvCL)。AdvCL用反射光，一种自然的现象发动转瞬即逝的攻击，隐蔽性好。它提出一种遗传算法来优化反射光的物理参数：Location, Color, Intensity。
 # 47: 20220928
 ### Title: FG-UAP: Feature-Gathering Universal Adversarial Perturbation
-### Venue: Arxiv 202209
+### Venue: IJCNN 2023
 
 # 48: 20220928
 ### Title: Suppress with a Patch: Revisiting Universal Adversarial Patch Attacks against Object Detection
@@ -682,3 +682,8 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 158: 20240123
 ### Title: Hiding from infrared detectors in real world with adversarial clothes
 ### Venue: Applied Intelligence 2023
+
+# 159: 20240301
+### Title: Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition
+### Venue: CVPR 2023
+本文提出用3D的面罩攻击人脸识别模型。效果很惊艳：成果地攻击了3个识别的APIs，4个反欺骗APIs，2个手机和2个自动权限管理系统。作者提出现有的攻击方法要么易于检测，要么不够有效，因此他们提出AT3D，用3D打印制作一个面罩，同时进行攻击和逃避反欺骗技术。由于直接在mesh空间进行优化容易陷入局部最优值，作者提出在low-dimensional系数空间进行优化，降低了优化复杂度，提升了效率，并且具有很好的black-box迁移性。
