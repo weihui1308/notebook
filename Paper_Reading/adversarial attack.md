@@ -265,11 +265,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 64. 20221014
 ### Title: Interpreting Attributions and Interactions of Adversarial Attacks
 ### Venue: ICCV 2021
-1. Why? 
-2. What?
-3. How?
-4. How much? 
-5. What then?
+本文从归因的角度分析了对抗攻击。作者计算了对抗性攻击的区域属性，进一步定义和提取了扰动像素之间的相互作用，并根据相互作用将扰动图分解为扰动组件。作者发现，L2 攻击的区域归因和 L2 扰动的大小相似，而 L∞ 攻击的区域归因和 L∞ 扰动的大小不同。对扰动成分的提取表明，扰动成分与视觉概念并不一致。作者发现，与正常训练的DNN相比，对抗训练的DNN在前景中有更多的扰动成分。此外，与正常训练的DNN相比，对抗训练的DNN容易降低真实类别的得分，而不是增加目标类别的得分。
 # 65. 20221014
 ### Title: Evaluating the Robustness of Semantic Segmentation for Autonomous Driving against Real-World Adversarial Patch Attacks
 ### Venue: WACV 2022
