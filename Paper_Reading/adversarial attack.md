@@ -202,7 +202,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 47: 20220928
 ### Title: FG-UAP: Feature-Gathering Universal Adversarial Perturbation
 ### Venue: IJCNN 2023
-
+本文利用神经塌陷(Neural Collapse)来使UAP(Universal Adversarial Perturbation)获得更强的攻击力。具体的做法是，输入一个batch的benign images，得到网络最后一层的features。然后在输入的images上添加perturbation，得到adversarial examples，然后输入网络，得到最后一层的features，根据两次得到的features计算FG-Loss。
 # 48: 20220928
 ### Title: Suppress with a Patch: Revisiting Universal Adversarial Patch Attacks against Object Detection
 ### Venue: Arxiv 202209
