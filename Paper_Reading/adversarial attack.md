@@ -277,11 +277,10 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 67. 20221015
 ### TItle: Pre-trained Adversarial Perturbations
 ### Venue: NIPS 2022
-1. Why? 
-2. What?
-3. How?
-4. How much? 
-5. What then?
+1. Why? Large-scale pre-trained models在NLP和CV都大放异彩，采用预训练到微调的模式，而不是从头开始培训，已成为一种新兴趋势。然而关于pre-trained models对对抗样本的鲁棒性，却很少人研究。
+2. What? 本文提出Pre-trained Adversarial Perturbations (PAPs)，一种新的adversarial perturbation，专门为pre-trained models而设计。这种perturbation可以有效地攻击下游任务。
+3. How? 为了生成PAP，本文提出Low-Level Layer Lifting Attack (L4A)。
+4. How much? 在SimCLR、MOCO、CLIP等model上取得出色结果。
 # 68. 20221017
 ### TItle: Face Pasting Attack
 ### Venue: Arxiv 202210
@@ -684,10 +683,12 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Venue: CVPR 2023
 本文提出用3D的面罩攻击人脸识别模型。效果很惊艳：成果地攻击了3个识别的APIs，4个反欺骗APIs，2个手机和2个自动权限管理系统。作者提出现有的攻击方法要么易于检测，要么不够有效，因此他们提出AT3D，用3D打印制作一个面罩，同时进行攻击和逃避反欺骗技术。由于直接在mesh空间进行优化容易陷入局部最优值，作者提出在low-dimensional系数空间进行优化，降低了优化复杂度，提升了效率，并且具有很好的black-box迁移性。
 
-# 160. 20240103
+# 160. 20240303
 ### Title: DAP: A Dynamic Adversarial Patch for Evading Person Detectors
 ### Venue: arXiv 202311
 
-# 161. 20240103
+# 161. 20240303
 ### Title: Seeing isn’t Believing: Towards More Robust Adversarial Attack Against Real World Object Detectors
 ### Venue: CCS 2019
+
+# 162. 20240305
