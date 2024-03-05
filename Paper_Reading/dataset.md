@@ -26,5 +26,7 @@
 ### Title: SIXray: A Large-scale Security Inspection X-ray Benchmark for Prohibited Item Discovery in Overlapping Images
 ### Keywords: Security Inspection, Prohibited Item Detection, X-ray Benchmark
 本文关注安全检查（安检）场景，违规物品检测任务，提出了一个大规模的X-ray图像数据集，称为SIXray，包含六个类别：Gun, Knife, Wrench, Pliers, Scissors, Hammer和Negative Example。文章分析了该任务面对的挑战，同时提出了一个基线方法。SIXray共有1,059,231张图像，其中包含Positive (8,929)和Negative (1,050,302)。
-
+# 7. (NIPS 2023)
+### Title: Benchmarking Robustness to Adversarial Image Obfuscations
+### Keywords: Benchmark, Robustness, Adversarial Image
 

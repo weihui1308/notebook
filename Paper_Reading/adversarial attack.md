@@ -692,3 +692,53 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 ### Venue: CCS 2019
 
 # 162. 20240305
+### Title: Vulnerabilities in Video Quality Assessment Models: The Challenge of Adversarial Attacks
+### Venue: NIPS 2023
+
+# 163. 20240305
+### Title: UniT: A Unified Look at Certified Robust Training against Text Adversarial Perturbation
+### Venue: NIPS 2023
+
+# 164. 20240305
+### Title: Content-based Unrestricted Adversarial Attack
+### Venue: NIPS 2023
+
+# 165. 20240305
+### Title: On Evaluating Adversarial Robustness of Large Vision-Language Models
+### Venue: NIPS 2023
+
+# 166. 20240305
+### Title: CamoPatch: An Evolutionary Strategy for Generating Camoflauged Adversarial Patches 
+### Venue: NIPS 2023
+
+# 167. 20240305
+### Title: Adversarial Attacks on Online Learning to Rank with Click Feedback
+### Venue: NIPS 2023
+
+# 168. 20240305
+### Title: Diffusion-Based Adversarial Sample Generation for Improved Stealthiness and Controllability 
+### Venue: NIPS 2023
+
+# 169. 20240305
+### Title: Adversarial Examples Are Not Real Features
+### Venue: NIPS 2023
+
+# 170. 20240305
+### Title: VLATTACK: Multimodal Adversarial Attacks on Vision-Language Tasks via Pre-trained Models
+### Venue: NIPS 2023
+
+# 171. 20240305
+### Title: Blurred-Dilated Method for Adversarial Attacks
+### Venue: NIPS 2023
+
+# 172. 20240305
+### Title: Efficient Adversarial Attacks on Online Multi-agent Reinforcement Learning
+### Venue: NIPS 2023
+
+# 173. 20240305
+### Title: HQA-Attack: Toward High Quality Black-Box Hard-Label Adversarial Attack on Text
+### Venue: NIPS 2023
+
+# 174. 20240305
+### Title: Adversarial Examples Might be Avoidable: The Role of Data Concentration in Adversarial Robustness
+### Venue: NIPS 2023
