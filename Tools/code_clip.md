@@ -145,6 +145,6 @@ print(xx)
 # CUDNN TEST
 from torch.backends import cudnn
 
-print('cudann is ' + str(cudnn.is_acceptable(xx)))
+print('cudnn is ' + str(cudnn.is_acceptable(xx)))
 
 ````
