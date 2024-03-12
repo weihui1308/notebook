@@ -742,3 +742,4 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 174. 20240305
 ### Title: Adversarial Examples Might be Avoidable: The Role of Data Concentration in Adversarial Robustness
 ### Venue: NIPS 2023
+现代的机器学习分类器容易受到Adversarial Examples的影响，这一现象启发了理论的研究，表明这种现象是不可避免的。然而，作者声称这些结果可能过于笼统，不适用于自然数据分布。事实上，人类在完成涉及视觉的任务时非常鲁棒。这种明显的冲突促使作者对这个问题进行更深入的探究： Adversarial Examples真的不可避免吗？他们从理论上证明，数据分布的一个关键属性--集中于输入空间的小容量子集--决定了鲁棒分类器是否存在。
