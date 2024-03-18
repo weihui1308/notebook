@@ -44,7 +44,7 @@
 # 12. 20240318
 ### Title: Towards Practical Deployment-Stage Backdoor Attack on Deep Neural Networks
 ### Venue: CVPR 2022
-
+作者提出，AI security社区的主要目标是构建安全可靠的AI应用，因此基于数据下毒的后门攻击以及相应的防御手段吸引力大量的关注。然而讽刺的是，相比production stage或者训练阶段的攻击，backdoor attacks in the deployment stage，这种更具威胁的攻击，却很少有相关的研究。基于此，作者提出subnet replacement attack (SRA)，首个gray-box and physically realizable的后门攻击。该攻击通过在物理场景中放置一个触发器，可以是一个patch，就可以控制后门模型进行错误的预测。
 
 
 
