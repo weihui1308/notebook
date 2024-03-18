@@ -110,7 +110,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 25: 20220513
 ### Title: Making an Invisibility Cloak: Real World Adversarial Attacks on Object Detectors
 ### Venue: ECCV 2020
-作者关注生成的patch在不同模型之间的迁移性，在不同数据集之间的迁移性，并且做了详尽的实验，实现了physical attach。
+作者关注生成的patch在不同模型之间的迁移性，在不同数据集之间的迁移性，并且做了详尽的实验，实现了physical adversarial attach。
 # 26: 20220514
 ### Title: DVS-Attacks: Adversarial Attacks on Dynamic Vision Sensors for Spiking Neural Networks
 ### Venue: IJCNN 2021
@@ -222,6 +222,7 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 # 52. 20221004
 ### Title: GhostImage: Remote Perception Attacks against Camera-based Image Classification Systems
 ### Venue: USENIX 2020
+本文提出一种攻击方式：remote perception attacks。具体指用投影仪将对抗图案投射到目标物体上，从而导致后续的检测和分类任务预测错误。作者生成他们的方法用到了光学效应，即镜头光斑和自动曝光控制，使这种攻击在大多数相机上都有效。本篇文章的写作，可以在后续使用light进行攻击的工作中借鉴。
 # 53. 20221004
 ### Title: Adversarial Objects Against LiDAR-Based Autonomous Driving Systems
 ### Venue: Arxiv 2019
@@ -357,8 +358,8 @@ FGSM算法从梯度的角度做攻击，速度比较快，这是该算法比较�
 5. What then? 本文列举了一系列类似的攻击措施，统称为PG attacks，有一些潜在的机会。
 # 81. 20221114
 ### Title: Fooling the Eyes of Autonomous Vehicles: Robust Physical Adversarial Examples Against Traffic Sign Recognition Systems
-### Venue: arXiv 202201
-1. Why? 
+### Venue: NDSS 2022
+作者提出当前的对抗样本大多数是针对数字空间，并且是静态的，而real world的应用，例如交通标志牌识别系统，距离和位置是在持续变化的，导致当前数字的对抗样本在物理识别失效。为了解决这一问题，作者从三个方面增强鲁棒性：第一，用blur transformation 和 the resolution transformation对车辆上的camera进行仿真；第二，作者设计一个bounding box filter来提高扰动训练的效率；第三，作者考虑了四种representative attack vectors，即Hiding Attack (HA), Appearance Attack (AA), Non-Target Attack (NTA) and Target Attack (TA)。
 # 82. 20221115
 ### Title: Attacking Face Recognition with T-shirts: Database, Vulnerability Assessment and Detection
 ### Venue: arXiv 202211
