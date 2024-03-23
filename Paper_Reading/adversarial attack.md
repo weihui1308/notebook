@@ -748,3 +748,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 175. 20240319
 ### Title: Universal and Transferable Adversarial Attacks on Aligned Language Models
 ### Venue: arXiv 202312
+
+# 176. 20240323
+### Title: As Firm As Their Foundations Can Open-Sourced Foundation Models be Used to Create Adversarial Examples for Downstream Tasks?
+### Venue: arXiv 202403
