@@ -1,0 +1,227 @@
+% faster R-CNN
+@article{ren2015faster,
+  title={Faster r-cnn: Towards real-time object detection with region proposal networks},
+  author={Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian},
+  journal={Advances in neural information processing systems},
+  volume={28},
+  year={2015}
+}
+
+% YOLO
+@inproceedings{redmon2016you,
+  title={You only look once: Unified, real-time object detection},
+  author={Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={779--788},
+  year={2016}
+}
+
+@misc{yolov52013,
+  author = {Ultralytics},
+  title = {yolov5},
+  year = {2020},
+  howpublished = {\url{https://github.com/ultralytics/yolov5}},
+  note = {Accessed: 2024-03-04}
+}
+
+@inproceedings{farhadi2018yolov3,
+  title={Yolov3: An incremental improvement},
+  author={Farhadi, Ali and Redmon, Joseph},
+  booktitle={Computer vision and pattern recognition},
+  volume={1804},
+  pages={1--6},
+  year={2018},
+  organization={Springer Berlin/Heidelberg, Germany}
+}
+
+% coco dataset
+@inproceedings{lin2014microsoft,
+  title={Microsoft coco: Common objects in context},
+  author={Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\'a}r, Piotr and Zitnick, C Lawrence},
+  booktitle={European conference on computer vision},
+  year={2014}
+}
+
+% inria dataset
+@misc{inriadataset,
+    title = {INRIA Person detection dataset Dataset},
+    type = {Open Source Dataset},
+    author = {Pascal to Yolo},
+    howpublished = {\url{https://universe.roboflow.com/pascal-to-yolo-8yygq/inria-person-detection-dataset}},
+    url = {https://universe.roboflow.com/pascal-to-yolo-8yygq/inria-person-detection-dataset},
+    journal = {Roboflow Universe},
+    publisher = {Roboflow},
+    year = { 2022 },
+    month = { dec },
+    note = { visited on 2023-10-28 },
+}
+
+% hotcold block
+@inproceedings{wei2023hotcold,
+  title={Hotcold block: Fooling thermal infrared detectors with a novel wearable design},
+  author={Wei, Hui and Wang, Zhixiang and Jia, Xuemei and Zheng, Yinqiang and Tang, Hao and Satoh, Shin'ichi and Wang, Zheng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={12},
+  pages={15233--15241},
+  year={2023}
+}
+
+% adversarial patch
+@inproceedings{brown2017adversarial,
+  title={Adversarial patch},
+  author={Brown, Tom B and Man{\'e}, Dandelion and Roy, Aurko and Abadi, Mart{\'\i}n and Gilmer, Justin},
+  booktitle={Proceedings of the Advances in Neural Information Processing Systems Workshop},
+  year={2017}
+}
+
+% adversarial eyeglass
+@inproceedings{sharif2016accessorize,
+  title={Accessorize to a crime: Real and stealthy attacks on state-of-the-art face recognition},
+  author={Sharif, Mahmood and Bhagavatula, Sruti and Bauer, Lujo and Reiter, Michael K},
+  booktitle={Proceedings of the 2016 acm sigsac conference on computer and communications security},
+  pages={1528--1540},
+  year={2016}
+}
+
+% fooling person detector
+@inproceedings{thys2019fooling,
+  title={Fooling automated surveillance cameras: adversarial patches to attack person detection},
+  author={Thys, Simen and Van Ranst, Wiebe and Goedem{\'e}, Toon},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition workshops},
+  pages={0--0},
+  year={2019}
+}
+
+% LAP
+@inproceedings{tan2021legitimate,
+  title={Legitimate Adversarial Patches: Evading Human Eyes and Detection Models in the Physical World},
+  author={Tan, Jia and Ji, Nan and Xie, Haidong and Xiang, Xueshuang},
+  booktitle={ACM International Conference on Multimedia},
+  year={2021}
+}
+
+% t-shirt
+@inproceedings{xu2020adversarial,
+  title={Adversarial t-shirt! evading person detectors in a physical world},
+  author={Xu, Kaidi and Zhang, Gaoyuan and Liu, Sijia and Fan, Quanfu and Sun, Mengshu and Chen, Hongge and Chen, Pin-Yu and Wang, Yanzhi and Lin, Xue},
+  booktitle={European conference on computer vision},
+  year={2020}
+}
+
+% TSEA
+@inproceedings{huang2023t,
+  title={T-sea: Transfer-based self-ensemble attack on object detection},
+  author={Huang, Hao and Chen, Ziyan and Chen, Huanran and Wang, Yongtao and Zhang, Kevin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={20514--20523},
+  year={2023}
+}
+
+% shadow attack
+@inproceedings{zhong2022shadows,
+  title={Shadows can be dangerous: Stealthy and effective physical-world adversarial attack by natural phenomenon},
+  author={Zhong, Yiqi and Liu, Xianming and Zhai, Deming and Jiang, Junjun and Ji, Xiangyang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={15345--15354},
+  year={2022}
+}
+
+% mask
+@inproceedings{zolfi2022adversarial,
+  title={Adversarial Mask: Real-World Universal Adversarial Attack on Face Recognition Models},
+  author={Zolfi, Alon and Avidan, Shai and Elovici, Yuval and Shabtai, Asaf},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={304--320},
+  year={2022},
+  organization={Springer}
+}
+
+% depth
+@inproceedings{cheng2022physical,
+  title={Physical attack on monocular depth estimation with optimal adversarial patches},
+  author={Cheng, Zhiyuan and Liang, James and Choi, Hongjun and Tao, Guanhong and Cao, Zhiwen and Liu, Dongfang and Zhang, Xiangyu},
+  booktitle={European Conference on Computer Vision},
+  pages={514--532},
+  year={2022},
+  organization={Springer}
+}
+
+% NAP
+@inproceedings{hu2021naturalistic,
+  title={Naturalistic Physical Adversarial Patch for Object Detectors},
+  author={Hu, Yu-Chih-Tuan and Kung, Bo-Han and Tan, Daniel Stanley and Chen, Jun-Cheng and Hua, Kai-Lung and Cheng, Wen-Huang},
+  booktitle={IEEE/CVF International Conference on Computer Vision},
+  year={2021}
+}
+
+# qrattack
+@inproceedings{zhu2022infrared,
+  title={Infrared Invisible Clothing: Hiding from Infrared Detectors at Multiple Angles in Real World},
+  author={Zhu, Xiaopei and Hu, Zhanhao and Huang, Siyuan and Li, Jianmin and Hu, Xiaolin},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
+}
+
+% adv bulb
+@inproceedings{zhu2021fooling,
+  title={Fooling thermal infrared pedestrian detectors in real world using small bulbs},
+  author={Zhu, Xiaopei and Li, Xiao and Li, Jianmin and Wang, Zheyao and Hu, Xiaolin},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2021}
+}
+
+% hat
+@inproceedings{komkov2021advhat,
+  title={Advhat: Real-world adversarial attack on arcface face id system},
+  author={Komkov, Stepan and Petiushko, Aleksandr},
+  booktitle={International Conference on Pattern Recognition},
+  year={2021},
+}
+
+% makeup
+@inproceedings{yin2021adv,
+  title={Adv-Makeup: A New Imperceptible and Transferable Attack on Face Recognition},
+  author={Yin, Bangjie and Wang, Wenxuan and Yao, Taiping and Guo, Junfeng and Kong, Zelun and Ding, Shouhong and Li, Jilin and Liu, Cong},
+  booktitle={International Joint Conference on Artificial Intelligence},
+  year={2021}
+}
+
+% gan
+@article{goodfellow2014generative,
+  title={Generative adversarial nets},
+  author={Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  journal={Advances in neural information processing systems},
+  volume={27},
+  year={2014}
+}
+
+% laser beam
+@inproceedings{duan2021adversarial,
+  title={Adversarial laser beam: Effective physical-world attack to dnns in a blink},
+  author={Duan, Ranjie and Mao, Xiaofeng and Qin, A Kai and Chen, Yuefeng and Ye, Shaokai and He, Yuan and Yang, Yun},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2021}
+}
+
+% detr
+@inproceedings{detr,
+  author    = {Nicolas Carion and
+               Francisco Massa and
+               Gabriel Synnaeve and
+               Nicolas Usunier and
+               Alexander Kirillov and
+               Sergey Zagoruyko},
+  title     = {End-to-End Object Detection with Transformers},
+  booktitle = {European conference on computer vision},
+  year      = {2020}
+}
+
+% mask r-cnn
+@inproceedings{He_2017,
+  title={Mask r-cnn},
+  author={He, Kaiming and Gkioxari, Georgia and Doll{\'a}r, Piotr and Girshick, Ross},
+  booktitle={IEEE/CVF International Conference on Computer Vision},
+  year={2017}
+}
+
