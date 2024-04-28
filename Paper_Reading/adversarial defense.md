@@ -78,10 +78,13 @@ DNN容易被攻击的性质阻碍了其在安全关键领域的应用。为了�
 ### Title: Friendly Noise against Adversarial Noise: A Powerful Defense against Data Poisoning Attack
 ### Venue: NIPS 2022
 
-# 14. 20230329
+# 15. 20230329
 ### Title: DISCO: Adversarial Defense with Local Implicit Functions
 ### Venue: NIPS 2022
 
+# 16. 20240428
+### Title: Towards Unified Robustness Against Both Backdoor and Adversarial Attacks
+### Venue: TPAMI 2024
 
 
 
