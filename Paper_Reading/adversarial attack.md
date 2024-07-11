@@ -752,3 +752,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 176. 20240323
 ### Title: As Firm As Their Foundations Can Open-Sourced Foundation Models be Used to Create Adversarial Examples for Downstream Tasks?
 ### Venue: arXiv 202403
+
+# 177. 20240711
+### Title: MMA-Diffusion: MultiModal Attack on Diffusion Models
+### Venue: CVPR 2024
