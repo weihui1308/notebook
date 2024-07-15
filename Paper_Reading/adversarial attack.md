@@ -748,6 +748,7 @@ Nanyang Technological University，博士学位论文。地址：https://dr.ntu.
 # 175. 20240319
 ### Title: Universal and Transferable Adversarial Attacks on Aligned Language Models
 ### Venue: arXiv 202312
+作者提出了一种针对对齐语言模型的Universal and Transferable对抗性攻击。具体来说，他们在查询中添加了对抗后缀，促使模型生成有害内容。实验证明，这种攻击可以诱导对齐语言模型生成几乎任何攻击性内容。
 
 # 176. 20240323
 ### Title: As Firm As Their Foundations Can Open-Sourced Foundation Models be Used to Create Adversarial Examples for Downstream Tasks?
