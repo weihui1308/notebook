@@ -23,3 +23,6 @@
 ## Paper: Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks (NMI 2023)
 <img src="https://github.com/weihui1308/notebook/blob/main/assets/paperWritting/20231113170315.png?raw=true" width=50%>
 
+## Paper: Fisher Information guided Purification against Backdoor Attacks (ACM CCS 2024)
+<img src="https://github.com/weihui1308/notebook/blob/main/assets/paperWritting/20240805092946.png?raw=true" width=70%>
+
