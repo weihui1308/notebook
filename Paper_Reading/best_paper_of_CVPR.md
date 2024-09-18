@@ -1,3 +1,14 @@
+# 2024(两篇)
+### Generative Image Dynamics
+
+### Rich Human Feedback for Text-to-Image Generation
+
+# 2023(两篇)
+### Visual Programming: Compositional visual reasoning without training
+
+### Planning-oriented Autonomous Driving
+
+
 # 2022(一篇)
 ### Learning to Solve Hard Minimal Problems
 该研究提出了一种在 RANSAC 框架中解决困难的几何优化问题的方法。最小化问题源于将原始几何优化问题松弛化（relax）为具有许多虚假解决方案的最小问题。该研究提出的方法避免了计算大量虚假解决方案。研究者设计了一种学习策略，用于选择初始问题 - 解决方案对以用数值方法继续解决原问题。该研究通过创建一个 RANSAC 求解器来演示所提方法，该求解器通过使用每个视图中的 4 个点进行最小松弛化来计算 3 个校准相机的相对位姿。平均而言，该方法可以在 70 μs 内解决一个原始问题。此外，该研究还针对校准相机的相对位姿这一问题进行了基准测试和研究。
